@@ -5,7 +5,7 @@ List of all the lessons learned, best practices, and links from my time studying
 * [Data and Features](#data-and-features)
 * [Models](#models)
 * [Hyperparameters](#hyperparameters)
-* [Tensorflow/Deep Nets](#tensorflowdeep-nets)
+* [Tensorflow/Deep Nets](#tensorflow--deep-nets)
 * [Deep Learning Frameworks](#deep-learning-frameworks)
 * [CNNs](#cnns)
 * [NLP](#nlp)
@@ -15,6 +15,8 @@ List of all the lessons learned, best practices, and links from my time studying
 * [Best Courses](#best-courses)
 * [Best Python Libraries for ML](#best-python-libraries-for-ml)
 * [Most Important Deep Learning Papers](#most-important-deep-learning-papers)
+* [Other Interesting Links](#other-interesting-links)
+* [Best Blogs](#best-blogs)
 * [Random Thoughts](#random-thoughts)
 * [Research Ideas](#research-ideas)
 * [Other](#other)
@@ -127,7 +129,8 @@ If you try to change too many of the above variables at once, you’ll lose trac
 ## Kaggle
 
 * Bit of a love/hate relationship with Kaggle. I think it's great for beginners in machine learning who are looking to get more practical experience. I can't tell you how much it helped me to go through the process of loading in data with Pandas, creating a model with Tensorflow/Scikit-Learn, training the model, and fine tuning to get good performance. Seeing how your model stacks up against the competition afterwards is a cool feeling as well. 
-* The part of Kaggle that I don't really enjoy is how much feature engineering is required to really get into the top 10-15% of the leaderboard. You have to be really committed to data visualization and hyperparameter tuning. Some may argue that this is a crucial part of being a data scientist/machine learning engineer, and I do agree that it's important in real world problem spaces. I think the main point here is that if you want to get good at Kaggle competitions, there's no easy road, and you'll have to do a lot of practice (which is not bad!).  
+* The part of Kaggle that I don't really enjoy is how much feature engineering is required to really get into the top 10-15% of the leaderboard. You have to be really committed to data visualization and hyperparameter tuning. Some may argue that this is a crucial part of being a data scientist/machine learning engineer, and I do agree that it's important in real world problem spaces. I think the main point here is that if you want to get good at Kaggle competitions, there's no easy road, and you'll have to do a lot of practice (which is not bad!).
+* If you're looking to get better at Kaggle competitions, I'd recommend reading their [blog](http://blog.kaggle.com/). They interview a lot of the competition winners, which will give you a good look at the type of ML models and pipelines needed to get good performance.   
 
 ## Debugging ML Models
 
@@ -151,11 +154,16 @@ If you try to change too many of the above variables at once, you’ll lose trac
 
 ## Best Courses
 
-* [Stanford CS231N]()
-* [Stanford CS224D]()
-* [David Silver's Reinforcement Learning Course]()
-* [Andrew Ng Machine Learning Course]()
+* [Stanford CS 231N](https://www.youtube.com/watch?v=g-PvXUjD6qg&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA) - CNNs
+* [Stanford CS 224D](https://www.youtube.com/watch?v=sU_Yu_USrNc&list=PLTuSSFCVeNVCXL0Tak5rJ83O-Bg_ajO5B) - Deep Learning for NLP
+* [David Silver's Reinforcement Learning Course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL5X3mDkKaJrL42i_jhE4N-p6E2Ol62Ofa)
+* [Andrew Ng Machine Learning Course](https://www.coursera.org/learn/machine-learning)
+* [Stanford CS 229](https://www.youtube.com/playlist?list=PLA89DCFA6ADACE599) - Pretty much the same as the Coursera course
 * [UC Berkeley Kaggle Decal](https://kaggledecal.github.io/)
+* [Short MIT Intro to DL Course](https://www.youtube.com/playlist?list=PLkkuNyzb8LmxFutYuPA7B4oiMn6cjD6Rs)
+* [Udacity Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
+* [Deep Learning School Montreal 2016](http://videolectures.net/deeplearning2016_montreal/)
+* 
 
 ## Best Python Libraries for ML
 
@@ -169,6 +177,32 @@ If you try to change too many of the above variables at once, you’ll lose trac
 Not a comprehensive by any sense. I just thought these papers were incredibly influential in getting deep learning to where it is today. 
 
 * []()
+
+## Other Interesting Links
+
+* [Neural Network Playground](http://playground.tensorflow.org)
+* [ConvNetJS Demo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html)
+* [Stanford Sentiment Analysis Demo](http://nlp.stanford.edu:8080/sentiment/rntnDemo.html)
+* [Deep Learning's Relation to Physics](https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/)
+* [Interpretability of AI](http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable)
+* [Picking up Deep Learning as an Engineer](https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman?srid=cgo&share=d1ac0da2)
+
+## Best Blogs
+
+* [Andrej Karpathy](http://karpathy.github.io/)
+* [Google Research](https://research.googleblog.com/)
+* [Neil Lawrence](http://inverseprobability.com/blog)
+* [Qure.ai](http://blog.qure.ai/)
+* [Brandon Amos](http://bamos.github.io/blog/)
+* [Moritz Hardt](http://blog.mrtz.org/)
+* [Deepmind](https://deepmind.com/blog/)
+* [Machine Learning Mastery](http://machinelearningmastery.com/blog/)
+* [Smerity](http://smerity.com/articles/articles.html)
+* [The Neural Perspective](https://theneuralperspective.com/)
+* [Pete Warden](https://petewarden.com/page/2/)
+* [Kevin Zakka](https://kevinzakka.github.io/)
+* [Off the Convex Path](http://www.offconvex.org/about/)
+* [My blog :)](https://adeshpande3.github.io/)
 
 ## Random Thoughts
 
