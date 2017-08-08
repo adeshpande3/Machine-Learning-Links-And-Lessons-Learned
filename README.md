@@ -1,8 +1,23 @@
-# Machine Learning Lessons Learned
+# Machine Learning Links and Lessons Learned
 
 List of all the lessons learned, best practices, and links from my time studying machine learning. 
 
-* [Data and Features](#Data-and-Features)
+* [Data and Features](#data-and-features)
+* [Models](#models)
+* [Hyperparameters](#hyperparameters)
+* [Tensorflow/Deep Nets](#tensorflow--deep-nets)
+* [Deep Learning Frameworks](#deep-learning-frameworks)
+* [CNNs](#cnns)
+* [NLP](#nlp)
+* [ML Project Advice](#ml-project-advice)
+* [Kaggle](#kaggle)
+* [Debugging ML Models](#debugging-ml-models)
+* [Best Courses](#best-courses)
+* [Best Python Libraries for ML](#best-python-libraries-for-ml)
+* [Most Important Deep Learning Papers](#most-important-deep-learning-papers)
+* [Random Thoughts](#random-thoughts)
+* [Research Ideas](#research-ideas)
+* [Other](#other)
 
 ## Data and Features
 
@@ -24,6 +39,8 @@ List of all the lessons learned, best practices, and links from my time studying
     * Rotations
     * Brightness
     * Shears
+* Whenever thinking about whether or not to even apply machine learning to your problem, always consider the type of data that you have to solve the problem. Let's consider a model where you want to predict whether someone will develop cancer in the next few months based on their health data. The data is your input into the model and the output is a binary result. Seems like a good place where we can apply machine learning right, given that we have a number of patients' data and cancer results? However, we should also be thinking about whether the health data that we have about the individual is *enough* to be able to make some conclusion about the patient. Does the health data accurately encompass the different amounts of variation there are from person to person? Are we accurately representing each input example with the most comprehensive amount of information? Because if the data doesn't have enough information/features, your model will risk just overfitting to noise or the training set, and won't really learn anything useful at all. 
+* Never underestimate the power of simply increasing the size of your training dataset when you're attempting to improve your model accuracy. If you have $100 for your machine learning project, spend like 90 of those dollars on good data collection and preprocessing.   
 
 ## Models
 
@@ -36,14 +53,14 @@ List of all the lessons learned, best practices, and links from my time studying
 * One of the themes I hear over and over again is that the effective capacity of your model should match the complexity of your task. 
     * For simple house price prediction, a linear regression model might do. 
     * For object segmentation, a large and specialized CNN will be a necessity. 
-    
-## Training Models
-
-* Always divide your data into train and validation (and test if you want) sets. Checking performance on your validation set at certain points during training will help you determine whether the network is learning and when overfitting starts to happen.  
-* Always shuffle your data when you're creating training batches. 
 
 ## Hyperparameters
 
+* Optimizing hyperparameters can be a bit of a pain and can be really computationally expensive, but sometimes they can make anywhere from a 1 - 5 percent improvement. In some use cases, that can be the difference between a good product and a great product. 
+* Not saying that everyone should invest in a Titan X GPU to do large grid searches for optimizing hyperparameters, but it's very important to develop a structured way for how your going to go about it. 
+	* The easiest and simplest way is to just write a nested for loop that goes through different values, and keeps track of the models that perform the best. 
+	* You can also use specialized libraries and functions that will make the code look a little nicer. 
+		* Scikit-Learn has a good [one](http://scikit-learn.org/stable/modules/grid_search.html)
 * SVM’s
     * [What are C and Gamma?](https://www.quora.com/What-are-C-and-gamma-with-regards-to-a-support-vector-machine/answer/Rohan-Varma-8?srid=JlQJ) 
 * The Deep Learning book says that the learning rate is the most important hyperparameter in most deep networks, and I do have to agree. A low LR makes training unbearably slow (and could get stuck in some minima), while a high LR can make training extremely unstable. 
@@ -87,6 +104,8 @@ If you try to change too many of the above variables at once, you’ll lose trac
 
 ## CNNs
 
+* Use CNNs for *any* image related task. It's really hard for me to think of any image processing task that hasn't been absoluted revolutionized by CNNs. 
+	* That being said, you might not want to use CNNs if you have latency, power, computation, or memory constraints. In a lot of different areas (IoT for example), some of the downsides of using a CNN flare up. 
 * Transfer learning is harder than it looks. Found out from firsthand experience. During a hackathon, my friend and I wanted to determine whether someone has bad posture or not (from a picture) and so we spent quite a bit of time creating a 500 image dataset, but even with using a pretrained model, chopping off the last layer, and retraining it, and while the network was able to learn and get a decent accuracy on the training set, the validation and testing accuracies weren’t up to par signaling that overfitting might be a problem (due to our small dataset). Moral of the story is don’t think that transfer learning will come and save your image processing task. Take a good amount of time to create a solid dataset, and understand what type of model you’ll need, and what kind of modifications you’ll need to make to the pretrained network. 
 	* Transfer learning is also interesting because there are two different ways that you can go with it. You can use transfer learning for finetuning. This is where you take a pretrained CNN (trained on Imagenet), chop off the last fully connected layer, add an FC layer specific to your task, and then retrain on your dataset. However, there's also another interesting approach called transfer learning for feature extraction. This is where you take a pretrained CNN, pass your data through the CNN, get the output activations from the last convolutional layer, and then use that feature representation as your data for training a more simple model like an SVM or linear regression.  
 
@@ -102,6 +121,8 @@ If you try to change too many of the above variables at once, you’ll lose trac
     * Too many times you can get over complicated with the model and hyperparameters when your issues may lie just in the way you’re loading in data or creating your training batches. Be sure to get those simple parts of the machine learning pipeline down. 
     * Another benefit to making sure you have a minimal but working end to end pipeline is that you’re able to track performance metrics as you start to change your model and tune your hyperparameters. 
 * If you’re trying to create some sort of end product, 80% of your ML project will honestly be just doing front-end and back-end work. And even within that 20% of ML work, a lot of it will probably be dataset creation or preprocessing. 
+* Always divide your data into train and validation (and test if you want) sets. Checking performance on your validation set at certain points during training will help you determine whether the network is learning and when overfitting starts to happen.  
+* Always shuffle your data when you're creating training batches. 
 
 ## Kaggle
 
@@ -128,21 +149,13 @@ If you try to change too many of the above variables at once, you’ll lose trac
         * I heard random search is also surprisingly effective, but haven’t tried it myself. 
     * Restart with a very simple model and only a couple of training points, and make sure your model is able to learn that data. Once it gets 100% accuracy, start increasing the complexity of the model, as well as loading in more and more of your whole dataset. 
 
-## Other
-
-* Jupyter Notebook is the **best**. Seriously. It’s so nice for ML because visualizing data and understanding dimensionality of your variables is so vital, and having an environment where you can do both of those things easily is very helpful. 
-* The number of clusters that you choose in K nearest neighbors is a hidden latent variable because it is something that isn’t observed in the actual dataset. 
-* We use dimensionality reduction because data may appear high dimensional but there may only be a small number of degrees of variability.  
-* Don’t bother with unsupervised learning unless you have a really simple task and you want to use K-Means, or if you’re using PCA to reduce the dimensionality of data, or if you’re playing around with autoencoders.. PCA can be ridiculously useful sometimes. 
-* Model compression is something that becomes extremely important when you’re trying to deploy pretrained models onto mobile devices. Training a model offline with GPUs and then making sure that the network size is small enough so that end users can just run inference on those models at test time. Most of the time, the state of the art CNN models (like Inception or ResNet) are so huge that all the parameters can’t possibly fit on one device. That’s where model compression comes in. 
-* Haven’t played around a whole lot with auto-encoders, but they seem really interesting. The basic idea is that you want a network that maps your input into another representation h, and then from h back to your original input. This is interesting because throughout the process of training, the weight values in between your x and h representations could give us a lot of good information about the type of data distribution we have in our training set. A really cool unsupervised learning method. 
-
 ## Best Courses
 
 * [Stanford CS231N]()
 * [Stanford CS224D]()
 * [David Silver's Reinforcement Learning Course]()
 * [Andrew Ng Machine Learning Course]()
+* [UC Berkeley Kaggle Decal](https://kaggledecal.github.io/)
 
 ## Best Python Libraries for ML
 
@@ -152,6 +165,8 @@ If you try to change too many of the above variables at once, you’ll lose trac
 * [Pandas](http://pandas.pydata.org/)
 
 ## Most Important Deep Learning Papers
+
+Not a comprehensive by any sense. I just thought these papers were incredibly influential in getting deep learning to where it is today. 
 
 * []()
 
@@ -189,3 +204,12 @@ If you try to change too many of the above variables at once, you’ll lose trac
 * Multitask learning in order to have single networks that able to solve a bunch of different tasks given input, rather than having one (CNN) for image inputs and one (RNN) for language inputs. 
     * The main thing here is that we’d like to be able to compute some shared representation of the input so that we’re able to do some sort of analysis of it, regardless of whether the input is an image or text or speech, etc.
 * Adding more variety to your loss function. A traditional loss function just represents the difference between a network’s prediction and the true label, and our optimization procedure seeks to minimize that. We can also try to get creative with our loss functions and add soft constraints on the values of the weights (weight decay) or the values of the activations, or honestly whatever desirable property we want in our model.
+
+## Other
+
+* Jupyter Notebook is the **best**. Seriously. It’s so nice for ML because visualizing data and understanding dimensionality of your variables is so vital, and having an environment where you can do both of those things easily is very helpful. 
+* The number of clusters that you choose in K nearest neighbors is a hidden latent variable because it is something that isn’t observed in the actual dataset. 
+* We use dimensionality reduction because data may appear high dimensional but there may only be a small number of degrees of variability.  
+* Don’t bother with unsupervised learning unless you have a really simple task and you want to use K-Means, or if you’re using PCA to reduce the dimensionality of data, or if you’re playing around with autoencoders.. PCA can be ridiculously useful sometimes. 
+* Model compression is something that becomes extremely important when you’re trying to deploy pretrained models onto mobile devices. Training a model offline with GPUs and then making sure that the network size is small enough so that end users can just run inference on those models at test time. Most of the time, the state of the art CNN models (like Inception or ResNet) are so huge that all the parameters can’t possibly fit on one device. That’s where model compression comes in. 
+* Haven’t played around a whole lot with auto-encoders, but they seem really interesting. The basic idea is that you want a network that maps your input into another representation h, and then from h back to your original input. This is interesting because throughout the process of training, the weight values in between your x and h representations could give us a lot of good information about the type of data distribution we have in our training set. A really cool unsupervised learning method. 
