@@ -1,12 +1,16 @@
 # Machine Learning Lessons Learned
-List of all the lessons learned and best practices from my time studying machine learning.
+
+List of all the lessons learned, best practices, and links from my time studying machine learning. 
+
+* [Data and Features](#Data-and-Features)
 
 ## Data and Features
 
 * Normalizing inputs isn’t guaranteed to help. 
-    * A lot of people say you should always normalize, but TBH in practice, in doesn’t help for me all the time. This advice is very very dataset dependent, and it’s up to you to figure out if normalizing will be helpful for your particular task. 
+    * A lot of people say you should always normalize, but TBH in practice, it doesn’t help for me all the time. This advice is very very dataset dependent, and it’s up to you to figure out if normalizing will be helpful for your particular task. 
+    * In order to determine whether it will help or not, visualize your data to see what type of features you're dealing with. Do you have some features that have values around 1000 or 2000? Do you have some that are only 0.1 or 0.2? If so, normalizing those inputs is likely a good idea. 
 * The process in which you convert categorical features into numerical ones is very important. 
-    * You have to decide whether you want to use dummies variables, use bins, etc
+    * You have to decide whether you want to use dummies variables, use bins, etc.
 * Many different methods of normalization
     * Min-max normalization where you do (x - a)/(b-a) where x is the data point, a is the min value and b is the max value. 
     * Max normalization where you do x/b where b is the max value. 
@@ -14,6 +18,7 @@ List of all the lessons learned and best practices from my time studying machine
     * L2 normalization where you do x/c where c is the square root of the summation of all the squared values.
     * Z score normalization where you do (x - d)/e where d is the mean and e is the standard deviation.
 * Something interesting you can do if you either have little data or missing data is that you can use a neural network to predict those values based on the data that you currently have. 
+	* I believe the matrix imputation is the correct term. 
 * Data augmentation comes in many different forms. Noise injection is the most general form. While working with images, the number of options increases a whole lot.
     * Translations
     * Rotations
@@ -23,10 +28,9 @@ List of all the lessons learned and best practices from my time studying machine
 ## Models
 
 * For regression problems where the goal is to output some real valued number, linear regression should always be your first choice. It gets great accuracy on a lot of datasets. Obviously, this is very dependent on the type of data you have, but you should always first try linreg, and then move on to other more complex models.
-* XGBoost has been the best model for a lot of regression or classification tasks. 
-* Averaging multiple runs of XGBoost with different seeds helps to reduce model variance. 
+* XGBoost has been one of the best models I've seen for a lot of regression or classification tasks. 
+	* Averaging multiple runs of XGBoost with different seeds helps to reduce model variance. 
     * Model hyperparameter tuning is important for XGBoost
-* Neural networks with batch normalization and dropout are effective. 
 * Whenever your features are highly correlated with each other, running OLS will have a large variance, and therefore you should use ridge regression instead.
 * KNN does poorly with high dimensional data because the distance metrics would get all messed up with the scales.
 * One of the themes I hear over and over again is that the effective capacity of your model should match the complexity of your task. 
@@ -36,6 +40,7 @@ List of all the lessons learned and best practices from my time studying machine
 ## Training Models
 
 * Always divide your data into train and validation (and test if you want) sets. Checking performance on your validation set at certain points during training will help you determine whether the network is learning and when overfitting starts to happen.  
+* Always shuffle your data when you're creating training batches. 
 
 ## Hyperparameters
 
@@ -43,7 +48,7 @@ List of all the lessons learned and best practices from my time studying machine
     * [What are C and Gamma?](https://www.quora.com/What-are-C-and-gamma-with-regards-to-a-support-vector-machine/answer/Rohan-Varma-8?srid=JlQJ) 
 * The Deep Learning book says that the learning rate is the most important hyperparameter in most deep networks, and I do have to agree. A low LR makes training unbearably slow (and could get stuck in some minima), while a high LR can make training extremely unstable. 
 
-**Tensorflow/Deep Nets**
+## Tensorflow/Deep Nets
 
 * Always make sure your model is able to overfit to a couple pieces of the training data. Once you know that the network is learning correctly and is able to overfit, then you can work on building a more general model.
 * Evaluation of your Tensorflow graph only happens at runtime. Your job is to first define the variables and the placeholders and the operations (which together make up the graph) and then you can execute this graph in a session (execution environment), where you feed in values into the placeholders. 
@@ -75,7 +80,7 @@ If you try to change too many of the above variables at once, you’ll lose trac
 ## Deep Learning Frameworks
 
 * [Keras](https://keras.io/) - My friend and I have a joke where we say that you’ll have a greater number of lines in your code just doing Keras imports, compared to the actual code because the functions are so incredibly high level. Like seriously. You could load a pretrained network and finetune it on your own task in like 6 lines. It’s incredible. This is definitely the framework I use for hackathons and when I’m in a time crunch, but I think if you really really want to learn ML and DL, relying on Keras’s nice API might not be the best call. 
-* [Tensorflow](https://www.tensorflow.org/) - Honestly I think it has the steepest learning curve 
+* [Tensorflow](https://www.tensorflow.org/) - This is my go-to deep library nowdays. Honestly I think it has the steepest learning curve because it takes quite a while to get comfortable with the ideas of Tensorflow variables, placeholders, and building/executing graphs. One of the big plus sides to Tensorflow is the number of Github and Stackoverflow help you can get. You can find the answer to almost any error you get in Tensorflow because someone has likely run into it before. I think that's hugely helpful. 
 * [Torch](http://torch.ch/) - 2015 was definitely the year of Torch, but unless you really want to learn Lua, PyTorch is probably the way to go now. However, there’s a lot of good documentation and tutorials associated with Torch, so that’s a good upside. 
 * [PyTorch](http://pytorch.org/) - My other friend and I have this joke where we say that if you’re running into a bug in PyTorch, you could probably read the entirety of PyTorch’s documentation in less than 2 hours and you still wouldn’t find your answer LOL. But honestly, so many AI researchers have been raving about it, so it’s definitely worth giving it a shot even though it’s still pretty young. I think Tensorflow and PyTorch will be the 2 frameworks that will start to take over the DL framework space.
 * [Caffe](http://caffe.berkeleyvision.org/) and [Caffe2](https://caffe2.ai/) - Never played around with Caffe, but this was one of the first deep learning libraries out there. Caffe2 is notable because it's the production framework that Facebook uses to serve its models. [According to Soumith Chintala](https://www.oreilly.com/ideas/why-ai-and-machine-learning-researchers-are-beginning-to-embrace-pytorch), researchers at Facebook will try out new models and research ideas using PyTorch and will deploy using Caffe2. 
@@ -83,10 +88,12 @@ If you try to change too many of the above variables at once, you’ll lose trac
 ## CNNs
 
 * Transfer learning is harder than it looks. Found out from firsthand experience. During a hackathon, my friend and I wanted to determine whether someone has bad posture or not (from a picture) and so we spent quite a bit of time creating a 500 image dataset, but even with using a pretrained model, chopping off the last layer, and retraining it, and while the network was able to learn and get a decent accuracy on the training set, the validation and testing accuracies weren’t up to par signaling that overfitting might be a problem (due to our small dataset). Moral of the story is don’t think that transfer learning will come and save your image processing task. Take a good amount of time to create a solid dataset, and understand what type of model you’ll need, and what kind of modifications you’ll need to make to the pretrained network. 
+	* Transfer learning is also interesting because there are two different ways that you can go with it. You can use transfer learning for finetuning. This is where you take a pretrained CNN (trained on Imagenet), chop off the last fully connected layer, add an FC layer specific to your task, and then retrain on your dataset. However, there's also another interesting approach called transfer learning for feature extraction. This is where you take a pretrained CNN, pass your data through the CNN, get the output activations from the last convolutional layer, and then use that feature representation as your data for training a more simple model like an SVM or linear regression.  
 
 ## NLP
 
 * Use pretrained word embeddings whenever you can. From my experience, it’s just a lot less hassle, and quite frankly I’m not sure if you even get a performance improvement if you try to train them jointly with whatever other main task you want to solve. It’s task-dependent I guess. For something simple like sentiment analysis though, pretrained word vectors worked perfectly. 
+	* [Glove word embeddings](https://nlp.stanford.edu/projects/glove/) work great for me. 
 
 ## ML Project Advice
 
