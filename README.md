@@ -5,7 +5,7 @@ List of all the lessons learned, best practices, and links from my time studying
 * [Data and Features](#data-and-features)
 * [Models](#models)
 * [Hyperparameters](#hyperparameters)
-* [Tensorflow/Deep Nets](#tensorflow--deep-nets)
+* [Tensorflow/Deep Nets](#tensorflowdeep-nets)
 * [Deep Learning Frameworks](#deep-learning-frameworks)
 * [CNNs](#cnns)
 * [NLP](#nlp)
