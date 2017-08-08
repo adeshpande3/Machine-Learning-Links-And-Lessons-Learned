@@ -1,8 +1,5 @@
 # Machine Learning Lessons Learned
-List of all the lessons learned and best practices from my time studying machine learing
-
-## Contributing
-Submit a pull request and we can see if it's a good fit. 
+List of all the lessons learned and best practices from my time studying machine learning.
 
 ## Data and Features
 
@@ -35,6 +32,7 @@ Submit a pull request and we can see if it's a good fit.
 * One of the themes I hear over and over again is that the effective capacity of your model should match the complexity of your task. 
     * For simple house price prediction, a linear regression model might do. 
     * For object segmentation, a large and specialized CNN will be a necessity. 
+    
 ## Training Models
 
 * Always divide your data into train and validation (and test if you want) sets. Checking performance on your validation set at certain points during training will help you determine whether the network is learning and when overfitting starts to happen.  
@@ -42,7 +40,7 @@ Submit a pull request and we can see if it's a good fit.
 ## Hyperparameters
 
 * SVM’s
-    * [https://www.quora.com/What-are-C-and-gamma-with-regards-to-a-support-vector-machine/answer/Rohan-Varma-8?srid=JlQJ](https://www.quora.com/What-are-C-and-gamma-with-regards-to-a-support-vector-machine/answer/Rohan-Varma-8?srid=JlQJ) 
+    * [What are C and Gamma?](https://www.quora.com/What-are-C-and-gamma-with-regards-to-a-support-vector-machine/answer/Rohan-Varma-8?srid=JlQJ) 
 * The Deep Learning book says that the learning rate is the most important hyperparameter in most deep networks, and I do have to agree. A low LR makes training unbearably slow (and could get stuck in some minima), while a high LR can make training extremely unstable. 
 
 **Tensorflow/Deep Nets**
@@ -76,11 +74,11 @@ If you try to change too many of the above variables at once, you’ll lose trac
 
 ## Deep Learning Frameworks
 
-* Keras - My friend and I have a joke where we say that you’ll have a greater number of lines in your code just doing Keras imports, compared to the actual code because the functions are so incredibly high level. Like seriously. You could load a pretrained network and finetune it on your own task in like 6 lines. It’s incredible. This is definitely the framework I use for hackathons and when I’m in a time crunch, but I think if you really really want to learn ML and DL, relying on Keras’s nice API might not be the best call. 
-* Tensorflow - Honestly I think it has the steepest learning curve 
-* Torch - 2015 was definitely the year of Torch, but unless you really want to learn Lua, PyTorch is probably the way to go now. However, there’s a lot of good documentation and tutorials associated with Torch, so that’s a good upside. 
-* PyTorch - My other friend and I have this joke where we say that if you’re running into a bug in PyTorch, you could probably read the entirety of PyTorch’s documentation in less than 2 hours and you still wouldn’t find your answer LOL. But honestly, so many AI researchers have been raving about it, so it’s definitely worth giving it a shot even though it’s still pretty young. I think Tensorflow and PyTorch will be the 2 frameworks that will start to take over the DL framework space.
-* Caffe
+* [Keras](https://keras.io/) - My friend and I have a joke where we say that you’ll have a greater number of lines in your code just doing Keras imports, compared to the actual code because the functions are so incredibly high level. Like seriously. You could load a pretrained network and finetune it on your own task in like 6 lines. It’s incredible. This is definitely the framework I use for hackathons and when I’m in a time crunch, but I think if you really really want to learn ML and DL, relying on Keras’s nice API might not be the best call. 
+* [Tensorflow](https://www.tensorflow.org/) - Honestly I think it has the steepest learning curve 
+* [Torch](http://torch.ch/) - 2015 was definitely the year of Torch, but unless you really want to learn Lua, PyTorch is probably the way to go now. However, there’s a lot of good documentation and tutorials associated with Torch, so that’s a good upside. 
+* [PyTorch](http://pytorch.org/) - My other friend and I have this joke where we say that if you’re running into a bug in PyTorch, you could probably read the entirety of PyTorch’s documentation in less than 2 hours and you still wouldn’t find your answer LOL. But honestly, so many AI researchers have been raving about it, so it’s definitely worth giving it a shot even though it’s still pretty young. I think Tensorflow and PyTorch will be the 2 frameworks that will start to take over the DL framework space.
+* [Caffe](http://caffe.berkeleyvision.org/) and [Caffe2](https://caffe2.ai/) - Never played around with Caffe, but this was one of the first deep learning libraries out there. Caffe2 is notable because it's the production framework that Facebook uses to serve its models. [According to Soumith Chintala](https://www.oreilly.com/ideas/why-ai-and-machine-learning-researchers-are-beginning-to-embrace-pytorch), researchers at Facebook will try out new models and research ideas using PyTorch and will deploy using Caffe2. 
 
 ## CNNs
 
@@ -96,21 +94,26 @@ If you try to change too many of the above variables at once, you’ll lose trac
     * For example, if you’re creating an image classification model, make sure you’re able to load data into your program, create test/train matrices, create a very simple model (using one of the DL libraries), create your training loop, and make sure the network is learning something and that you can get to some baseline accuracy. Only once you’ve done these steps can you start to worry about things like regularization, data augmentation, etc. 
     * Too many times you can get over complicated with the model and hyperparameters when your issues may lie just in the way you’re loading in data or creating your training batches. Be sure to get those simple parts of the machine learning pipeline down. 
     * Another benefit to making sure you have a minimal but working end to end pipeline is that you’re able to track performance metrics as you start to change your model and tune your hyperparameters. 
-* If you’re trying to create some sort of end product, 80% of your ML project will honestly be just doing frontend and backend work. And even within that 20% of ML work, a lot of it will probably be dataset creation or preprocessing. 
+* If you’re trying to create some sort of end product, 80% of your ML project will honestly be just doing front-end and back-end work. And even within that 20% of ML work, a lot of it will probably be dataset creation or preprocessing. 
+
+## Kaggle
+
+* Bit of a love/hate relationship with Kaggle. I think it's great for beginners in machine learning who are looking to get more practical experience. I can't tell you how much it helped me to go through the process of loading in data with Pandas, creating a model with Tensorflow/Scikit-Learn, training the model, and fine tuning to get good performance. Seeing how your model stacks up against the competition afterwards is a cool feeling as well. 
+* The part of Kaggle that I don't really enjoy is how much feature engineering is required to really get into the top 10-15% of the leaderboard. You have to be really committed to data visualization and hyperparameter tuning. Some may argue that this is a crucial part of being a data scientist/machine learning engineer, and I do agree that it's important in real world problem spaces. I think the main point here is that if you want to get good at Kaggle competitions, there's no easy road, and you'll have to do a lot of practice (which is not bad!).  
 
 ## Debugging ML Models
 
 * What should you do when your ML model’s accuracy just isn’t good enough?
-* If your train accuracy is great but your validation accuracy is poor, this likely means that your model has overfit to the training data
+* If your train accuracy is great but your validation accuracy is poor, this likely means that your model has overfit to the training data.
     * Reduce model complexity
     * Gather more data
         * Data augmentation helps (at least for image data)
         * Honestly, just investing more time/money in this component of your ML model is almost always well worth it.
     * Regularization
-* Underfitting?
+* If your training accuracy just isn't good enough, you could be suffering from underfitting.
     * Increase model complexity
         * More layers or more units in each layer
-* Idek
+* Any other problem you might be having.
     * Check the quality of your training data and make sure you’re loading everything in properly
     * Adjust hyperparameters
         * I know it’s tedious and it takes a boatload of time, but it can *sometimes* be worth. 
@@ -120,12 +123,30 @@ If you try to change too many of the above variables at once, you’ll lose trac
 
 ## Other
 
-* Jupyter Notebook is the best. Seriously. It’s so nice for ML because visualizing data and understanding dimensionality of your variables is so vital, and having an environment where you can do both of those things easily is very helpful. 
+* Jupyter Notebook is the **best**. Seriously. It’s so nice for ML because visualizing data and understanding dimensionality of your variables is so vital, and having an environment where you can do both of those things easily is very helpful. 
 * The number of clusters that you choose in K nearest neighbors is a hidden latent variable because it is something that isn’t observed in the actual dataset. 
 * We use dimensionality reduction because data may appear high dimensional but there may only be a small number of degrees of variability.  
 * Don’t bother with unsupervised learning unless you have a really simple task and you want to use K-Means, or if you’re using PCA to reduce the dimensionality of data, or if you’re playing around with autoencoders.. PCA can be ridiculously useful sometimes. 
 * Model compression is something that becomes extremely important when you’re trying to deploy pretrained models onto mobile devices. Training a model offline with GPUs and then making sure that the network size is small enough so that end users can just run inference on those models at test time. Most of the time, the state of the art CNN models (like Inception or ResNet) are so huge that all the parameters can’t possibly fit on one device. That’s where model compression comes in. 
-* Haven’t played around a whole lot with autoencoders, but they seem really interesting. The basic idea is that you want a network that maps your input into another representation h, and then from h back to your original input. This is interesting because throughout the process of training, the weight values in between your x and h representations could give us a lot of good information about the type of data distribution we have in our training set. A really cool unsupervised learning method. 
+* Haven’t played around a whole lot with auto-encoders, but they seem really interesting. The basic idea is that you want a network that maps your input into another representation h, and then from h back to your original input. This is interesting because throughout the process of training, the weight values in between your x and h representations could give us a lot of good information about the type of data distribution we have in our training set. A really cool unsupervised learning method. 
+
+## Best Courses
+
+* [Stanford CS231N]()
+* [Stanford CS224D]()
+* [David Silver's Reinforcement Learning Course]()
+* [Andrew Ng Machine Learning Course]()
+
+## Best Python Libraries for ML
+
+* [Numpy](http://www.numpy.org/)
+* [Scikit-Learn](http://scikit-learn.org/stable/)
+* [Matplotlib](https://matplotlib.org/)
+* [Pandas](http://pandas.pydata.org/)
+
+## Most Important Deep Learning Papers
+
+* []()
 
 ## Random Thoughts
 
