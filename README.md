@@ -215,6 +215,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Speech Recognition](https://arxiv.org/pdf/1303.5778.pdf)
 * [Relational Networks](https://arxiv.org/pdf/1706.01427.pdf)
 * [Influence Functions](https://arxiv.org/pdf/1703.04730.pdf)
+* [ReLu](https://arxiv.org/pdf/1611.01491.pdf)
 
 ## Other Interesting Links
 
