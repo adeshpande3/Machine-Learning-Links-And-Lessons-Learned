@@ -55,6 +55,7 @@ List of all the lessons learned, best practices, and links from my time studying
 * One of the themes I hear over and over again is that the effective capacity of your model should match the complexity of your task. 
     * For simple house price prediction, a linear regression model might do. 
     * For object segmentation, a large and specialized CNN will be a necessity. 
+* Use RNNs for time series data and natural language data since NLP data is contains dependencies between different steps in the input.
 
 ## Hyperparameters
 
@@ -144,6 +145,7 @@ If you try to change too many of the above variables at once, you’ll lose trac
 * If your training accuracy just isn't good enough, you could be suffering from underfitting.
     * Increase model complexity
         * More layers or more units in each layer
+	* Don't try to add more data. Your model clearly isn't able to classify the examples in the current dataset, so adding more data won't help.
 * Any other problem you might be having.
     * Check the quality of your training data and make sure you’re loading everything in properly
     * Adjust hyperparameters
@@ -163,7 +165,6 @@ If you try to change too many of the above variables at once, you’ll lose trac
 * [Short MIT Intro to DL Course](https://www.youtube.com/playlist?list=PLkkuNyzb8LmxFutYuPA7B4oiMn6cjD6Rs)
 * [Udacity Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
 * [Deep Learning School Montreal 2016](http://videolectures.net/deeplearning2016_montreal/)
-* 
 
 ## Best Python Libraries for ML
 
@@ -174,9 +175,45 @@ If you try to change too many of the above variables at once, you’ll lose trac
 
 ## Most Important Deep Learning Papers
 
-Not a comprehensive by any sense. I just thought these papers were incredibly influential in getting deep learning to where it is today. 
+Not a comprehensive list by any sense. I just thought these papers were incredibly influential in getting deep learning to where it is today. 
 
-* []()
+* [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+* [GoogLeNet](https://arxiv.org/pdf/1409.4842v1.pdf)
+* [VGGNet](https://arxiv.org/pdf/1409.1556v6.pdf)
+* [ZFNet](https://arxiv.org/pdf/1311.2901v3.pdf)
+* [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
+* [R-CNN](https://arxiv.org/pdf/1311.2524v5.pdf)
+* [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf)
+* [Adversarial Images](https://arxiv.org/pdf/1412.1897.pdf)
+* [Generative Adversarial Networks](https://arxiv.org/pdf/1406.2661v1.pdf)
+* [Spatial Transformer Networks](https://arxiv.org/pdf/1506.02025.pdf)
+* [DCGAN](https://arxiv.org/pdf/1511.06434v2.pdf)
+* [Synthetic Gradients](https://arxiv.org/pdf/1608.05343v1.pdf)
+* [Memory Networks](https://arxiv.org/pdf/1410.3916v11.pdf)
+* [Mixture of Experts](https://arxiv.org/pdf/1701.06538.pdf)
+* [Neural Turing Machines](https://arxiv.org/pdf/1410.5401.pdf)
+* [Alpha Go](https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf)
+* [Atari DQN](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
+* [Word2Vec](https://arxiv.org/pdf/1310.4546.pdf)
+* [GloVe](https://nlp.stanford.edu/pubs/glove.pdf)
+* [A3C](https://arxiv.org/pdf/1602.01783v2.pdf)
+* [Gradient Descent by Gradient Descent](https://arxiv.org/pdf/1606.04474v1.pdf)
+* [Rethinking Generalization](https://arxiv.org/pdf/1611.03530v1.pdf)
+* [Densely Connected CNNs](https://arxiv.org/pdf/1608.06993v1.pdf)
+* [EBGAN](https://arxiv.org/pdf/1609.03126v1.pdf)
+* [Wasserstein GAN](https://arxiv.org/pdf/1701.07875.pdf)
+* [Style Transfer](https://arxiv.org/pdf/1603.08155v1.pdf)
+* [Pixel RNN](https://arxiv.org/pdf/1601.06759v2.pdf)
+* [Dynamic Coattention Networks](https://arxiv.org/pdf/1611.01604v2.pdf)
+* [Convolutional Seq2Seq Learning](https://arxiv.org/pdf/1705.03122.pdf)
+* [Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf)
+* [Dropout](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf)
+* [Batch Norm](https://arxiv.org/pdf/1502.03167.pdf)
+* [Large Batch Training](https://arxiv.org/pdf/1609.04836.pdf)
+* [Transfer Learning](http://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-neural-networks.pdf)
+* [Adam](https://arxiv.org/pdf/1412.6980.pdf)
+* [Speech Recognition](https://arxiv.org/pdf/1303.5778.pdf)
+* [Relational Networks](https://arxiv.org/pdf/1706.01427.pdf)
 
 ## Other Interesting Links
 
@@ -194,6 +231,7 @@ Not a comprehensive by any sense. I just thought these papers were incredibly in
 * [Neil Lawrence](http://inverseprobability.com/blog)
 * [Qure.ai](http://blog.qure.ai/)
 * [Brandon Amos](http://bamos.github.io/blog/)
+* [Denny Britz](http://www.wildml.com/)
 * [Moritz Hardt](http://blog.mrtz.org/)
 * [Deepmind](https://deepmind.com/blog/)
 * [Machine Learning Mastery](http://machinelearningmastery.com/blog/)
@@ -201,7 +239,16 @@ Not a comprehensive by any sense. I just thought these papers were incredibly in
 * [The Neural Perspective](https://theneuralperspective.com/)
 * [Pete Warden](https://petewarden.com/page/2/)
 * [Kevin Zakka](https://kevinzakka.github.io/)
+* [Thomas Dinsmore](https://thomaswdinsmore.com/)
+* [Arthur Juliani](https://medium.com/@awjuliani)
+* [CleverHans](http://www.cleverhans.io/)
 * [Off the Convex Path](http://www.offconvex.org/about/)
+* [Berkeley AI Research](http://bair.berkeley.edu/blog/)
+* [Facebook AI Research](https://research.fb.com/blog/)
+* [Salesforce Research](https://www.salesforce.com/products/einstein/ai-research/)
+* [OpenAI](https://blog.openai.com/)
+* [Lab41](https://gab41.lab41.org/tagged/machine-learning)
+* [Distill](https://distill.pub/)
 * [My blog :)](https://adeshpande3.github.io/)
 
 ## Random Thoughts
