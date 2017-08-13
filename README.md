@@ -25,6 +25,7 @@ List of all the lessons learned, best practices, and links from my time studying
 
 * Normalizing inputs isn’t guaranteed to help. 
     * A lot of people say you should always normalize, but TBH in practice, it doesn’t help for me all the time. This advice is very very dataset dependent, and it’s up to you to figure out if normalizing will be helpful for your particular task. 
+    	* It's also model dependent. Normalization will likely help for linear models like linear/logistic reg, but won't be as helpful for deep learning models and neural networks. 
     * In order to determine whether it will help or not, visualize your data to see what type of features you're dealing with. Do you have some features that have values around 1000 or 2000? Do you have some that are only 0.1 or 0.2? If so, normalizing those inputs is likely a good idea. 
 * The process in which you convert categorical features into numerical ones is very important. 
     * You have to decide whether you want to use dummies variables, use bins, etc.
