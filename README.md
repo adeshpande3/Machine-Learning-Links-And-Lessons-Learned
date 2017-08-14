@@ -247,6 +247,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Arthur Juliani](https://medium.com/@awjuliani)
 * [CleverHans](http://www.cleverhans.io/)
 * [Off the Convex Path](http://www.offconvex.org/about/)
+* [Sebastian Ruder](http://ruder.io/#open)
 * [Berkeley AI Research](http://bair.berkeley.edu/blog/)
 * [Facebook AI Research](https://research.fb.com/blog/)
 * [Salesforce Research](https://www.salesforce.com/products/einstein/ai-research/)
