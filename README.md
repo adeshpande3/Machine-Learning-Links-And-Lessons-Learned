@@ -218,6 +218,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Relational Networks](https://arxiv.org/pdf/1706.01427.pdf)
 * [Influence Functions](https://arxiv.org/pdf/1703.04730.pdf)
 * [ReLu](https://arxiv.org/pdf/1611.01491.pdf)
+* [Xavier Initialization](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
 
 ## Other Interesting Links
 
