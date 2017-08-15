@@ -168,6 +168,7 @@ If you try to change too many of the above variables at once, you’ll lose trac
 * [Short MIT Intro to DL Course](https://www.youtube.com/playlist?list=PLkkuNyzb8LmxFutYuPA7B4oiMn6cjD6Rs)
 * [Udacity Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
 * [Deep Learning School Montreal 2016](http://videolectures.net/deeplearning2016_montreal/)
+* [Intro to Neural Nets and ML (Univ of Toronto)](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/)
 
 ## Best Python Libraries for ML
 
