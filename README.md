@@ -254,6 +254,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Berkeley AI Research](http://bair.berkeley.edu/blog/)
 * [Facebook AI Research](https://research.fb.com/blog/)
 * [Salesforce Research](https://www.salesforce.com/products/einstein/ai-research/)
+* [Apple Machine Learning Journal](https://machinelearning.apple.com/)
 * [OpenAI](https://blog.openai.com/)
 * [Lab41](https://gab41.lab41.org/tagged/machine-learning)
 * [Distill](https://distill.pub/)
