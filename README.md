@@ -222,6 +222,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [ReLu](https://arxiv.org/pdf/1611.01491.pdf)
 * [Xavier Initialization](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
 * [Saddle Points and Non-convexity of Neural Networks](https://arxiv.org/pdf/1406.2572.pdf)
+* [Overcoming Catastrophic Forgetting in NNs](https://arxiv.org/pdf/1612.00796.pdf)
 
 ## Other Interesting Links
 
