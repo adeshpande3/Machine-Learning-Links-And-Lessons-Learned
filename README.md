@@ -224,6 +224,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Saddle Points and Non-convexity of Neural Networks](https://arxiv.org/pdf/1406.2572.pdf)
 * [Overcoming Catastrophic Forgetting in NNs](https://arxiv.org/pdf/1612.00796.pdf)
 * [Quasi-Recurrent Neural Networks](https://arxiv.org/pdf/1611.01576.pdf)
+* [Escaping Saddle Points Efficiently](https://arxiv.org/pdf/1703.00887.pdf)
 
 ## Other Interesting Links
 
