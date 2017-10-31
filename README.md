@@ -225,6 +225,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Overcoming Catastrophic Forgetting in NNs](https://arxiv.org/pdf/1612.00796.pdf)
 * [Quasi-Recurrent Neural Networks](https://arxiv.org/pdf/1611.01576.pdf)
 * [Escaping Saddle Points Efficiently](https://arxiv.org/pdf/1703.00887.pdf)
+* [Progressive Growing of GANs](http://research.nvidia.com/sites/default/files/pubs/2017-10_Progressive-Growing-of//karras2017gan-paper.pdf)
 
 ## Other Interesting Links
 
