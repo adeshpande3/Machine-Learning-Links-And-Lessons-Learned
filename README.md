@@ -16,6 +16,7 @@ List of all the lessons learned, best practices, and links from my time studying
 * [Best Python Libraries for ML](#best-python-libraries-for-ml)
 * [Most Important Deep Learning Papers](#most-important-deep-learning-papers)
 * [Other Interesting Links](#other-interesting-links)
+* [Cool Use Cases of ML](#cool-use-cases-of-ml)
 * [Best Blogs](#best-blogs)
 * [Random Thoughts](#random-thoughts)
 * [Research Ideas](#research-ideas)
@@ -236,6 +237,10 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Deep Learning's Relation to Physics](https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/)
 * [Interpretability of AI](http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable)
 * [Picking up Deep Learning as an Engineer](https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman?srid=cgo&share=d1ac0da2)
+
+## Cool Use Cases of ML
+
+* [Dropbox OCR](https://blogs.dropbox.com/tech/2017/04/creating-a-modern-ocr-pipeline-using-computer-vision-and-deep-learning/)
 
 ## Best Blogs
 
