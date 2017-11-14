@@ -171,6 +171,7 @@ If you try to change too many of the above variables at once, you’ll lose trac
 * [Deep Learning School Montreal 2016](http://videolectures.net/deeplearning2016_montreal/) and [2017](http://videolectures.net/deeplearning2017_montreal/)
 * [Intro to Neural Nets and ML (Univ of Toronto)](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/)
 * [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+* [CMU Neural Networks for NLP](http://www.phontron.com/class/nn4nlp2017/schedule.html)
 
 ## Best Python Libraries for ML
 
