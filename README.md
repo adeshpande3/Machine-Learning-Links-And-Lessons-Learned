@@ -230,6 +230,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Escaping Saddle Points Efficiently](https://arxiv.org/pdf/1703.00887.pdf)
 * [Progressive Growing of GANs](http://research.nvidia.com/sites/default/files/pubs/2017-10_Progressive-Growing-of//karras2017gan-paper.pdf)
 * [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+* [Dynamic Routing Between Capsules](https://arxiv.org/pdf/1710.09829.pdf)
 
 ## Other Interesting Links
 
