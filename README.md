@@ -239,6 +239,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Deep Learning's Relation to Physics](https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/)
 * [Interpretability of AI](http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable)
 * [Picking up Deep Learning as an Engineer](https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman?srid=cgo&share=d1ac0da2)
+* [Feature Visualization](https://distill.pub/2017/feature-visualization/)
 
 ## Cool Use Cases of ML
 
