@@ -242,6 +242,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Interpretability of AI](http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable)
 * [Picking up Deep Learning as an Engineer](https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman?srid=cgo&share=d1ac0da2)
 * [Feature Visualization](https://distill.pub/2017/feature-visualization/)
+* [Expressivity, Trainability, and Generalization in Machine Learning](http://blog.evjang.com/2017/11/exp-train-gen.html?spref=tw)
 
 ## Cool Use Cases of ML
 
