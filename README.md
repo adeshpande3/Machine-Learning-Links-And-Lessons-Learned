@@ -232,6 +232,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 * [Dynamic Routing Between Capsules](https://arxiv.org/pdf/1710.09829.pdf)
 * [Unsupervised Machine Translation with Monolingual Corpora](https://arxiv.org/pdf/1711.00043.pdf)
+* [Population Based Training of NN's](https://arxiv.org/pdf/1711.09846.pdf)
 
 ## Other Interesting Links
 
