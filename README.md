@@ -235,6 +235,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Population Based Training of NN's](https://arxiv.org/pdf/1711.09846.pdf)
 * [Learned Index Structures](https://arxiv.org/pdf/1712.01208v1.pdf)
 * [Visualizing Loss Landscapes](https://arxiv.org/pdf/1712.09913v1.pdf)
+* [DenseNet](https://arxiv.org/pdf/1608.06993.pdf)
 
 ## Other Interesting Links
 
