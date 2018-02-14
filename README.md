@@ -17,6 +17,7 @@ List of all the lessons learned, best practices, and links from my time studying
 * [Most Important Deep Learning Papers](#most-important-deep-learning-papers)
 * [Other Interesting Links](#other-interesting-links)
 * [Cool Use Cases of ML](#cool-use-cases-of-ml)
+* [ML Tech Talks](#ml-tech-talks)
 * [Best Blogs](#best-blogs)
 * [Random Thoughts](#random-thoughts)
 * [Research Ideas](#research-ideas)
@@ -172,6 +173,8 @@ If you try to change too many of the above variables at once, you’ll lose trac
 * [Intro to Neural Nets and ML (Univ of Toronto)](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/)
 * [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 * [CMU Neural Networks for NLP](http://www.phontron.com/class/nn4nlp2017/schedule.html)
+* [Bay Area Deep Learning School Day 1 2016](https://www.youtube.com/watch?v=eyovmAtoUx0) and [Day 2](https://www.youtube.com/watch?v=9dXiAecyJrY)
+* [Introduction to Deep Learning MIT Course](https://www.youtube.com/playlist?list=PLkkuNyzb8LmxFutYuPA7B4oiMn6cjD6Rs)
 
 ## Best Python Libraries for ML
 
@@ -251,6 +254,35 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 ## Cool Use Cases of ML
 
 * [Dropbox OCR](https://blogs.dropbox.com/tech/2017/04/creating-a-modern-ocr-pipeline-using-computer-vision-and-deep-learning/)
+
+## ML Tech Talks
+
+* [Democratizing Machine Learning - Neil Lawrence](https://www.youtube.com/watch?v=2Shx0cW1bMI)
+* [Deep Learning for NLP - Richard Socher](https://www.youtube.com/watch?v=tdLmf8t4oqM)
+* [2015 ICML Deep Learning Panel Discussion](https://www.youtube.com/watch?v=EiStan9i8vA)
+* [Practical Application of AI in Enterprise](https://www.youtube.com/watch?v=6LU5Rd587Vk)
+* [Using AI to Personlize Healthcare](https://www.youtube.com/watch?v=KB45rBClgmA)
+* [Autonomous Driving CVPR 2016 Keynote - Amnon Shashua](https://www.youtube.com/watch?v=n8T7A3wqH3Q)
+* [From Text to Knowledge via ML - Xavier Amatriain](https://www.youtube.com/watch?v=q_heZNJ4blA)
+* [Deep Visual-Semantic Alignments for Generating Image Descriptions](http://techtalks.tv/talks/deep-visual-semantic-alignments-for-generating-image-descriptions/61593/)
+* [Deep Learning Theoretical Motivations - Yoshua Bengio](http://videolectures.net/deeplearning2015_bengio_theoretical_motivations/?q=bengio)
+* [Learning to Learn and Compositionality with RNNs - Nando de Freitas](https://www.youtube.com/watch?v=x1kf4Zojtb0)
+* [Deep Advances in Generative Modeling - Alec Radford](https://www.youtube.com/watch?v=KeJINHjyzOU)
+* [Adversarial Networks - Soumith Chintala](https://www.youtube.com/watch?v=QPkb5VcgXAM)
+* [The Next Frontier in AI: Unsupervised Learning - Yann LeCun](https://www.youtube.com/watch?v=IbjF5VjniVE)
+* [ML Foundations and Methods for Precision Medicine and Healthcare - Suchi Saria](https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/ML-Foundations-and-Methods-for-Precision-Medicine-and-Healthcare)
+* [Reprogramming the Human Genome: Why AI is Needed - Brendan Frey](https://www.youtube.com/watch?v=dcU93uo1qu0)
+* [Virtual Assistant: Smart Reply - Anjuli Kannan](https://www.youtube.com/watch?v=ipzBmb4WLAk)
+* [Bridging the Gap Between Artificial Intelligence and Neuroscience - Alex Lavin](https://www.youtube.com/watch?v=7kiTiiMSCrI)
+* [Bringing Deep Learning to The Front Lines of Healthcare - Will Jack](https://www.youtube.com/watch?v=bG0ZbRCYCo8)
+* [Deep Robotic Learning - Sergey Levine](https://www.youtube.com/watch?v=eKaYnXQUb2g)
+* [How AI Startups Must Compete with Google - Fei-Fei Li](https://www.youtube.com/watch?v=Mu3scWZvZKo)
+* [Past, Present and Future of AI Panel](https://www.youtube.com/watch?v=0ueamFGdOpA&list=PLOU2XLYxmsIKC8eODk_RNCWv3fBcLvMMy&index=118)
+* [Differentiable Neural Computer - Alex Graves](https://www.youtube.com/watch?v=steioHoiEms)
+* [Technology, Policy and Vehicle Safety in the Age of AI - Chris Gerdes](https://www.youtube.com/watch?time_continue=990&v=LDprUza7yT4)
+* [Attention and Memory in Deep Learning Networks - Stephen Merity](https://www.youtube.com/watch?v=uuPZFWJ-4bE)
+* [Deep Learning in the Brain - Blake Richards](http://videolectures.net/deeplearning2017_richards_neuroscience/)
+* [Building Machines that See, Learn, and Think Like People - Josh Tenenbaum](https://www.youtube.com/watch?v=7ROelYvo8f0)
 
 ## Best Blogs
 
