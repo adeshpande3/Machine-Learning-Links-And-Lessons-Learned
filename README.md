@@ -317,7 +317,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Distill](https://distill.pub/)
 * [My blog :)](https://adeshpande3.github.io/)
 
-## Best Blogs
+## UCLA ACM AI Resources
 
 As one of the officers for UCLA ACM AI, the AI/ML group on campus, we have hosted several workshops on introducing students to machine learning. Here are the resources from our Intro to ML with Tensorflow workshop series. 
 
