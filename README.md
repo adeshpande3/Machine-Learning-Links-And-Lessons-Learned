@@ -175,6 +175,7 @@ If you try to change too many of the above variables at once, you’ll lose trac
 * [CMU Neural Networks for NLP](http://www.phontron.com/class/nn4nlp2017/schedule.html)
 * [Bay Area Deep Learning School Day 1 2016](https://www.youtube.com/watch?v=eyovmAtoUx0) and [Day 2](https://www.youtube.com/watch?v=9dXiAecyJrY)
 * [Introduction to Deep Learning MIT Course](https://www.youtube.com/playlist?list=PLkkuNyzb8LmxFutYuPA7B4oiMn6cjD6Rs)
+* [Caltech CS 156 - Machine Learning](https://www.youtube.com/playlist?list=PLD63A284B7615313A)
 
 ## Best Python Libraries for ML
 
@@ -254,6 +255,8 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 ## Cool Use Cases of ML
 
 * [Dropbox OCR](https://blogs.dropbox.com/tech/2017/04/creating-a-modern-ocr-pipeline-using-computer-vision-and-deep-learning/)
+* [Blend Application Submission RNNs](https://blend.com/predicting-submission/)
+* [Uber Customer Care NLP](https://eng.uber.com/cota/)
 
 ## ML Tech Talks
 
