@@ -19,6 +19,7 @@ List of all the lessons learned, best practices, and links from my time studying
 * [Cool Use Cases of ML](#cool-use-cases-of-ml)
 * [ML Tech Talks](#ml-tech-talks)
 * [Best Blogs](#best-blogs)
+* [UCLA ACM AI Resources](#ucla-acm-ai-resources)
 * [Random Thoughts](#random-thoughts)
 * [Research Ideas](#research-ideas)
 * [Other](#other)
@@ -315,6 +316,25 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Lab41](https://gab41.lab41.org/tagged/machine-learning)
 * [Distill](https://distill.pub/)
 * [My blog :)](https://adeshpande3.github.io/)
+
+## Best Blogs
+
+As one of the officers for UCLA ACM AI, the AI/ML group on campus, we have hosted several workshops on introducing students to machine learning. Here are the resources from our Intro to ML with Tensorflow workshop series. 
+
+* [Workshop #1: Linear Regression Slides](http://bit.ly/2hj5epX)
+* [Workshop #1: Linear Regression Code](https://github.com/uclaacmai/tf-workshop-series-fall17/blob/master/week2-linear-regression/Intro%20to%20TF%20and%20Linear%20Regression.ipynb)
+* [Workshop #2: Logistic Regression Slides](http://bit.ly/2ybSdZW)
+* [Workshop #2: Logistic Regression Code](https://github.com/uclaacmai/tf-workshop-series-fall17/blob/master/week3-classification/Classification%20and%20Logistic%20Regression.ipynb)
+* [Workshop #3: Pandas & Kaggle Hack Session Slides](http://bit.ly/2zN49gV)
+* [Workshop #3: Pandas & Kaggle Hack Session Code](https://github.com/uclaacmai/tf-workshop-series-fall17/blob/master/week4-pandas-and-kaggle/Kaggle%20Hack%20Session%20Starter.ipynb)
+* [Workshop #4: Neural Networks with Tensorflow Slides](http://bit.ly/2yqN2W9)
+* [Workshop #4: Neural Networks with Tensorflow Code](https://github.com/uclaacmai/tf-workshop-series-fall17/blob/master/week5-neural-networks/Neural%20Network%20Full%20Tutorial.ipynb)
+* [Workshop #5: Multi-Layer Neural Networks Slides](http://bit.ly/2zwwgUM)
+* [Workshop #5: Multi-Layer Neural Networks Code](https://github.com/uclaacmai/tf-workshop-series-fall17/blob/master/week6-multi-layer-neural-networks/Multi-Layer%20NN%20MNIST.ipynb)
+* [Workshop #6: Convolutional Neural Networks Slides](https://docs.google.com/presentation/d/12uEAa9Tpm660ggIVKtoPpyhVC_N41uVO5itMNsXA1Y8/edit?usp=sharing)
+* [Workshop #6: Convolutional Neural Networks Code](https://github.com/uclaacmai/tf-workshop-series-fall17/blob/master/week7-convolutional-neural-networks/CNN%20Full%20Tutorial.ipynb)
+* [Workshop #7: Recurrent Neural Networks Slides](https://docs.google.com/presentation/d/1MmU6mNhX0fuOE_z02bTtiXlgslRYSljuaU2OMatM7bg/edit?usp=sharing)
+* [Workshop #7: Recurrent Neural Networks Code](https://github.com/uclaacmai/tf-workshop-series-fall17/blob/master/week8-recurrent-neural-networks/Recurrent%20Neural%20Networks.ipynb)
 
 ## Random Thoughts
 
