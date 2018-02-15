@@ -2,6 +2,12 @@
 
 List of all the lessons learned, best practices, and links from my time studying machine learning. 
 
+* [Learning Machine Learning](#learning-machine-learning)
+* [Best Courses](#best-courses)
+* [Most Important Deep Learning Papers](#most-important-deep-learning-papers)
+* [Cool Use Cases of ML](#cool-use-cases-of-ml)
+* [ML Tech Talks](#ml-tech-talks)
+* [Best Blogs](#best-blogs)
 * [Data and Features](#data-and-features)
 * [Models](#models)
 * [Hyperparameters](#hyperparameters)
@@ -12,17 +18,199 @@ List of all the lessons learned, best practices, and links from my time studying
 * [ML Project Advice](#ml-project-advice)
 * [Kaggle](#kaggle)
 * [Debugging ML Models](#debugging-ml-models)
-* [Best Courses](#best-courses)
 * [Best Python Libraries for ML](#best-python-libraries-for-ml)
-* [Most Important Deep Learning Papers](#most-important-deep-learning-papers)
 * [Other Interesting Links](#other-interesting-links)
-* [Cool Use Cases of ML](#cool-use-cases-of-ml)
-* [ML Tech Talks](#ml-tech-talks)
-* [Best Blogs](#best-blogs)
 * [UCLA ACM AI Resources](#ucla-acm-ai-resources)
 * [Random Thoughts](#random-thoughts)
 * [Research Ideas](#research-ideas)
 * [Other](#other)
+
+## Learning Machine Learning
+
+"How do you get started with machine learning?". With AI and ML becoming such huge words in the tech industry, it's hard to go a full week without hearing something along these lines on online forums, in discussions with other students at UCLA, and even from fellow pre-meds and humanities majors. From my own experience of getting familiar with ML and from my experiences of teaching others through ACM AI, here's my best response to that question. 
+
+1) Before getting started with any code or any technical terms, I think the best first step is to gain a big picture understanding of what machine learning is, and what it is attempting to do. When first teaching other students about ML, I've found that it's **very** important to give me a general understanding of the field before diving start into terms like gradient descent and loss function. Machine learning, as stated by Wikipedia, is a *field of computer science that gives computers the ability to learn without being explicitly programmed*. I might also add that machine learning is a subfield of AI, and that it is a unique approach to creating intelligent systems by making use of training data and optimization. I'd recommend the following high level links and videos to get you started comfortable with the field as a whole. 
+	* [Machine Learning Introduction](https://www.youtube.com/watch?v=seG9J49bBYI): Loved this video because it starts with great definitions and introduces you to important terminology. Feel free to stop at 6:47.
+	* [What is Machine Learning?](https://www.youtube.com/watch?v=WXHM_i-fgGo): Explains the 3 different subareas of machine learning: supervised learning, unsupervised learning, reinforcement learning
+	*  [A Friendly Intro to Machine Learning](https://www.youtube.com/watch?v=IpGxLWOIZy4): Great video with some cool illustrations, but honestly I think just watching until 5:54 is sufficient. 
+	* [Basic Machine Learning Algorithms Overview](https://www.youtube.com/watch?v=ggIk08PNcBo): Don't worry about knowing exactly what every one of these terms mean. Just get a sense for the different algorithms and the tasks they are used for. We'll go into way more detail later on. 
+
+2) Okay cool, so now you should have a general idea of the goal of machine learning. We want to be able to create a system that is able to perform some task and we want to train this system using a dataset that we have. Let's now jump into some of the models used in machine learning. An approach that has helped me is **learning about these models one at a time**, while also constantly thinking about the similarities and differences between them. For each model, I think going through the following process would be helpful:
+	* Understand the high level approach that the model is taking. What type of task is the model trying to solve, and how is it going about solving it?
+	* Start to go into the specifics of what goes into the model. Think about what function the model is trying to compute. What is the loss function that is commonly used? Does this model use gradient descent for its optimization procedure? 
+	* Think about an example where this model could is used. Is the model used for classification tasks or for regression tasks? In the particular example that you thought of, what do the inputs and outputs to the model look like? What type of dataset would you need to train this algorithm?
+	* Transition to more practical exercises. If you're comfortable with coding, try to reconstruct the model in code. Think about how you would code the function, compute the loss, the gradients, etc. If that's a bit too intimidating right now (don't worry, it was initially for me too!), then just try to write down some pseudo-code and then look online to see how other people did it!
+	* Finally, I think the coolest part of learning any machine learning algorithm is getting to see it in practice. The final step would be to do some sort of project or experiment where you run either the algorithm you coded up in the previous step or one imported from SciKitLearn on a particular problem of your choice. 
+	* To make sure that you've really understood the model, it's helpful to just quiz yourself. Take a piece of paper, and (from memory) write down a summary of the model as if you were explaining it to a 5 year old. Then, write a technical summary that talks about what function is being computed, how the training procedure occurs, what the loss function is, etc. See if you can explain it to a friend. Think about a new problem space this model could be used for. Before jumping into the next model to learn, really ask yourself if you've firmly understood the concepts (and be honest with yourself here!) and then proceed accordingly. If the answer is still no, YouTube and Google are your friends :) With the scale of content that we have with this field, it won't be hard to find a video or tutorial that has the answers to your questions.  
+
+	Okay, that was definitely a lot of info. The tl;dr is that learning about machine learning models has a lot of steps involved. First, there's understanding the high level perspective, then there's identifying the unique characteristics of the model, then it's testing yourself to see if you can code it up, and finally it's using the model in a practical setting. Don't worry if this takes you a week or even a month with something like linear regression. Going through this process slowly and making sure that you're understanding each step is critical for retaining the information. 
+
+For steps #3 - 7, repeat the process I talked about above with each of the following ML models. 
+
+3) Linear Regression: 
+
+4) Logistic Regression: 
+
+5) K Nearest Neighbors: 
+
+6) K-Means: 
+
+7) Decision Trees
+
+**Optional, but Worth Your Time**: Random Forest, SVMs, Naive Bayes, Gradient Boosted Methods, PCA
+
+So now that we have a decent understanding of some ML models, I think that we can transition into deep learning. 
+
+8) Neural Networks: If someone wants to get started with deep learning, I think that the best approach is to first get familiar with machine learning (which you all will have done by this point) and then start with neural networks. Following the same high level understanding -> model specifics -> code -> practical example approach would be great here as well. 
+	* 
+
+9) Convolutional Neural Networks
+
+10) Recurrent Neural Networks
+
+11) Reinforcement Learning: While the 3 prior ML methods are necessarily important for understanding RL, a lot of recent progress in this field has combined elements from the deep learning camp as well as from the traditional reinforcement learning field. 
+
+Awesome, so now you should have a decent understanding of where ML and DL are in today's day and age. The world is your playground now. Read research papers, try Kaggle contests, watch ML tech talks, build cool projects, talk to others interested in ML, never stop learning, and most importantly, have fun! :) This is a great time to get into ML and in the rush to gain knowledge as quickly as possible, it often good to just slow down and think about the types of amazing applications and positive change we can create in this world with this technology.  
+
+## Best Courses
+
+* [Stanford CS 231N](https://www.youtube.com/watch?v=g-PvXUjD6qg&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA) - CNNs
+* [Stanford CS 224D](https://www.youtube.com/watch?v=sU_Yu_USrNc&list=PLTuSSFCVeNVCXL0Tak5rJ83O-Bg_ajO5B) - Deep Learning for NLP
+* [Hugo Larochelle's Neural Networks Course](https://www.youtube.com/watch?v=SGZ6BttHMPw&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH)
+* [David Silver's Reinforcement Learning Course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL5X3mDkKaJrL42i_jhE4N-p6E2Ol62Ofa)
+* [Andrew Ng Machine Learning Course](https://www.coursera.org/learn/machine-learning)
+* [Stanford CS 229](https://www.youtube.com/playlist?list=PLA89DCFA6ADACE599) - Pretty much the same as the Coursera course
+* [UC Berkeley Kaggle Decal](https://kaggledecal.github.io/)
+* [Short MIT Intro to DL Course](https://www.youtube.com/playlist?list=PLkkuNyzb8LmxFutYuPA7B4oiMn6cjD6Rs)
+* [Udacity Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
+* [Deep Learning School Montreal 2016](http://videolectures.net/deeplearning2016_montreal/) and [2017](http://videolectures.net/deeplearning2017_montreal/)
+* [Intro to Neural Nets and ML (Univ of Toronto)](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/)
+* [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+* [CMU Neural Networks for NLP](http://www.phontron.com/class/nn4nlp2017/schedule.html)
+* [Bay Area Deep Learning School Day 1 2016](https://www.youtube.com/watch?v=eyovmAtoUx0) and [Day 2](https://www.youtube.com/watch?v=9dXiAecyJrY)
+* [Introduction to Deep Learning MIT Course](https://www.youtube.com/playlist?list=PLkkuNyzb8LmxFutYuPA7B4oiMn6cjD6Rs)
+* [Caltech CS 156 - Machine Learning](https://www.youtube.com/playlist?list=PLD63A284B7615313A)
+
+## Most Important Deep Learning Papers
+
+Not a comprehensive list by any sense. I just thought these papers were incredibly influential in getting deep learning to where it is today. 
+
+* [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+* [GoogLeNet](https://arxiv.org/pdf/1409.4842v1.pdf)
+* [VGGNet](https://arxiv.org/pdf/1409.1556v6.pdf)
+* [ZFNet](https://arxiv.org/pdf/1311.2901v3.pdf)
+* [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
+* [R-CNN](https://arxiv.org/pdf/1311.2524v5.pdf)
+* [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf)
+* [Adversarial Images](https://arxiv.org/pdf/1412.1897.pdf)
+* [Generative Adversarial Networks](https://arxiv.org/pdf/1406.2661v1.pdf)
+* [Spatial Transformer Networks](https://arxiv.org/pdf/1506.02025.pdf)
+* [DCGAN](https://arxiv.org/pdf/1511.06434v2.pdf)
+* [Synthetic Gradients](https://arxiv.org/pdf/1608.05343v1.pdf)
+* [Memory Networks](https://arxiv.org/pdf/1410.3916v11.pdf)
+* [Mixture of Experts](https://arxiv.org/pdf/1701.06538.pdf)
+* [Neural Turing Machines](https://arxiv.org/pdf/1410.5401.pdf)
+* [Alpha Go](https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf)
+* [Atari DQN](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
+* [Word2Vec](https://arxiv.org/pdf/1310.4546.pdf)
+* [GloVe](https://nlp.stanford.edu/pubs/glove.pdf)
+* [A3C](https://arxiv.org/pdf/1602.01783v2.pdf)
+* [Gradient Descent by Gradient Descent](https://arxiv.org/pdf/1606.04474v1.pdf)
+* [Rethinking Generalization](https://arxiv.org/pdf/1611.03530v1.pdf)
+* [Densely Connected CNNs](https://arxiv.org/pdf/1608.06993v1.pdf)
+* [EBGAN](https://arxiv.org/pdf/1609.03126v1.pdf)
+* [Wasserstein GAN](https://arxiv.org/pdf/1701.07875.pdf)
+* [Style Transfer](https://arxiv.org/pdf/1603.08155v1.pdf)
+* [Pixel RNN](https://arxiv.org/pdf/1601.06759v2.pdf)
+* [Dynamic Coattention Networks](https://arxiv.org/pdf/1611.01604v2.pdf)
+* [Convolutional Seq2Seq Learning](https://arxiv.org/pdf/1705.03122.pdf)
+* [Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf)
+* [Dropout](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf)
+* [Batch Norm](https://arxiv.org/pdf/1502.03167.pdf)
+* [Large Batch Training](https://arxiv.org/pdf/1609.04836.pdf)
+* [Transfer Learning](http://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-neural-networks.pdf)
+* [Adam](https://arxiv.org/pdf/1412.6980.pdf)
+* [Speech Recognition](https://arxiv.org/pdf/1303.5778.pdf)
+* [Relational Networks](https://arxiv.org/pdf/1706.01427.pdf)
+* [Influence Functions](https://arxiv.org/pdf/1703.04730.pdf)
+* [ReLu](https://arxiv.org/pdf/1611.01491.pdf)
+* [Xavier Initialization](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
+* [Saddle Points and Non-convexity of Neural Networks](https://arxiv.org/pdf/1406.2572.pdf)
+* [Overcoming Catastrophic Forgetting in NNs](https://arxiv.org/pdf/1612.00796.pdf)
+* [Quasi-Recurrent Neural Networks](https://arxiv.org/pdf/1611.01576.pdf)
+* [Escaping Saddle Points Efficiently](https://arxiv.org/pdf/1703.00887.pdf)
+* [Progressive Growing of GANs](http://research.nvidia.com/sites/default/files/pubs/2017-10_Progressive-Growing-of//karras2017gan-paper.pdf)
+* [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+* [Dynamic Routing Between Capsules](https://arxiv.org/pdf/1710.09829.pdf)
+* [Unsupervised Machine Translation with Monolingual Corpora](https://arxiv.org/pdf/1711.00043.pdf)
+* [Population Based Training of NN's](https://arxiv.org/pdf/1711.09846.pdf)
+* [Learned Index Structures](https://arxiv.org/pdf/1712.01208v1.pdf)
+* [Visualizing Loss Landscapes](https://arxiv.org/pdf/1712.09913v1.pdf)
+* [DenseNet](https://arxiv.org/pdf/1608.06993.pdf)
+
+## Cool Use Cases of ML
+
+* [Dropbox OCR](https://blogs.dropbox.com/tech/2017/04/creating-a-modern-ocr-pipeline-using-computer-vision-and-deep-learning/)
+* [Blend Application Submission RNNs](https://blend.com/predicting-submission/)
+* [Uber Customer Care NLP](https://eng.uber.com/cota/)
+
+## ML Tech Talks
+
+* [Democratizing Machine Learning - Neil Lawrence](https://www.youtube.com/watch?v=2Shx0cW1bMI)
+* [Deep Learning for NLP - Richard Socher](https://www.youtube.com/watch?v=tdLmf8t4oqM)
+* [2015 ICML Deep Learning Panel Discussion](https://www.youtube.com/watch?v=EiStan9i8vA)
+* [Practical Application of AI in Enterprise](https://www.youtube.com/watch?v=6LU5Rd587Vk)
+* [Using AI to Personlize Healthcare](https://www.youtube.com/watch?v=KB45rBClgmA)
+* [Autonomous Driving CVPR 2016 Keynote - Amnon Shashua](https://www.youtube.com/watch?v=n8T7A3wqH3Q)
+* [From Text to Knowledge via ML - Xavier Amatriain](https://www.youtube.com/watch?v=q_heZNJ4blA)
+* [Deep Visual-Semantic Alignments for Generating Image Descriptions](http://techtalks.tv/talks/deep-visual-semantic-alignments-for-generating-image-descriptions/61593/)
+* [Deep Learning Theoretical Motivations - Yoshua Bengio](http://videolectures.net/deeplearning2015_bengio_theoretical_motivations/?q=bengio)
+* [Learning to Learn and Compositionality with RNNs - Nando de Freitas](https://www.youtube.com/watch?v=x1kf4Zojtb0)
+* [Deep Advances in Generative Modeling - Alec Radford](https://www.youtube.com/watch?v=KeJINHjyzOU)
+* [Adversarial Networks - Soumith Chintala](https://www.youtube.com/watch?v=QPkb5VcgXAM)
+* [The Next Frontier in AI: Unsupervised Learning - Yann LeCun](https://www.youtube.com/watch?v=IbjF5VjniVE)
+* [ML Foundations and Methods for Precision Medicine and Healthcare - Suchi Saria](https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/ML-Foundations-and-Methods-for-Precision-Medicine-and-Healthcare)
+* [Reprogramming the Human Genome: Why AI is Needed - Brendan Frey](https://www.youtube.com/watch?v=dcU93uo1qu0)
+* [Virtual Assistant: Smart Reply - Anjuli Kannan](https://www.youtube.com/watch?v=ipzBmb4WLAk)
+* [Bridging the Gap Between Artificial Intelligence and Neuroscience - Alex Lavin](https://www.youtube.com/watch?v=7kiTiiMSCrI)
+* [Bringing Deep Learning to The Front Lines of Healthcare - Will Jack](https://www.youtube.com/watch?v=bG0ZbRCYCo8)
+* [Deep Robotic Learning - Sergey Levine](https://www.youtube.com/watch?v=eKaYnXQUb2g)
+* [How AI Startups Must Compete with Google - Fei-Fei Li](https://www.youtube.com/watch?v=Mu3scWZvZKo)
+* [Past, Present and Future of AI Panel](https://www.youtube.com/watch?v=0ueamFGdOpA&list=PLOU2XLYxmsIKC8eODk_RNCWv3fBcLvMMy&index=118)
+* [Differentiable Neural Computer - Alex Graves](https://www.youtube.com/watch?v=steioHoiEms)
+* [Technology, Policy and Vehicle Safety in the Age of AI - Chris Gerdes](https://www.youtube.com/watch?time_continue=990&v=LDprUza7yT4)
+* [Attention and Memory in Deep Learning Networks - Stephen Merity](https://www.youtube.com/watch?v=uuPZFWJ-4bE)
+* [Deep Learning in the Brain - Blake Richards](http://videolectures.net/deeplearning2017_richards_neuroscience/)
+* [Building Machines that See, Learn, and Think Like People - Josh Tenenbaum](https://www.youtube.com/watch?v=7ROelYvo8f0)
+
+## Best Blogs
+
+* [Andrej Karpathy](http://karpathy.github.io/)
+* [Google Research](https://research.googleblog.com/)
+* [Neil Lawrence](http://inverseprobability.com/blog)
+* [Qure.ai](http://blog.qure.ai/)
+* [Brandon Amos](http://bamos.github.io/blog/)
+* [Denny Britz](http://www.wildml.com/)
+* [Moritz Hardt](http://blog.mrtz.org/)
+* [Deepmind](https://deepmind.com/blog/)
+* [Machine Learning Mastery](http://machinelearningmastery.com/blog/)
+* [Smerity](http://smerity.com/articles/articles.html)
+* [The Neural Perspective](https://theneuralperspective.com/)
+* [Pete Warden](https://petewarden.com/page/2/)
+* [Kevin Zakka](https://kevinzakka.github.io/)
+* [Thomas Dinsmore](https://thomaswdinsmore.com/)
+* [Arthur Juliani](https://medium.com/@awjuliani)
+* [CleverHans](http://www.cleverhans.io/)
+* [Off the Convex Path](http://www.offconvex.org/about/)
+* [Sebastian Ruder](http://ruder.io/#open)
+* [Berkeley AI Research](http://bair.berkeley.edu/blog/)
+* [Facebook AI Research](https://research.fb.com/blog/)
+* [Salesforce Research](https://www.salesforce.com/products/einstein/ai-research/)
+* [Apple Machine Learning Journal](https://machinelearning.apple.com/)
+* [OpenAI](https://blog.openai.com/)
+* [Lab41](https://gab41.lab41.org/tagged/machine-learning)
+* [Distill](https://distill.pub/)
+* [My blog :)](https://adeshpande3.github.io/)
 
 ## Data and Features
 
@@ -159,88 +347,12 @@ If you try to change too many of the above variables at once, you’ll lose trac
         * I heard random search is also surprisingly effective, but haven’t tried it myself. 
     * Restart with a very simple model and only a couple of training points, and make sure your model is able to learn that data. Once it gets 100% accuracy, start increasing the complexity of the model, as well as loading in more and more of your whole dataset. 
 
-## Best Courses
-
-* [Stanford CS 231N](https://www.youtube.com/watch?v=g-PvXUjD6qg&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA) - CNNs
-* [Stanford CS 224D](https://www.youtube.com/watch?v=sU_Yu_USrNc&list=PLTuSSFCVeNVCXL0Tak5rJ83O-Bg_ajO5B) - Deep Learning for NLP
-* [Hugo Larochelle's Neural Networks Course](https://www.youtube.com/watch?v=SGZ6BttHMPw&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH)
-* [David Silver's Reinforcement Learning Course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL5X3mDkKaJrL42i_jhE4N-p6E2Ol62Ofa)
-* [Andrew Ng Machine Learning Course](https://www.coursera.org/learn/machine-learning)
-* [Stanford CS 229](https://www.youtube.com/playlist?list=PLA89DCFA6ADACE599) - Pretty much the same as the Coursera course
-* [UC Berkeley Kaggle Decal](https://kaggledecal.github.io/)
-* [Short MIT Intro to DL Course](https://www.youtube.com/playlist?list=PLkkuNyzb8LmxFutYuPA7B4oiMn6cjD6Rs)
-* [Udacity Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
-* [Deep Learning School Montreal 2016](http://videolectures.net/deeplearning2016_montreal/) and [2017](http://videolectures.net/deeplearning2017_montreal/)
-* [Intro to Neural Nets and ML (Univ of Toronto)](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2017/)
-* [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
-* [CMU Neural Networks for NLP](http://www.phontron.com/class/nn4nlp2017/schedule.html)
-* [Bay Area Deep Learning School Day 1 2016](https://www.youtube.com/watch?v=eyovmAtoUx0) and [Day 2](https://www.youtube.com/watch?v=9dXiAecyJrY)
-* [Introduction to Deep Learning MIT Course](https://www.youtube.com/playlist?list=PLkkuNyzb8LmxFutYuPA7B4oiMn6cjD6Rs)
-* [Caltech CS 156 - Machine Learning](https://www.youtube.com/playlist?list=PLD63A284B7615313A)
-
 ## Best Python Libraries for ML
 
 * [Numpy](http://www.numpy.org/)
 * [Scikit-Learn](http://scikit-learn.org/stable/)
 * [Matplotlib](https://matplotlib.org/)
 * [Pandas](http://pandas.pydata.org/)
-
-## Most Important Deep Learning Papers
-
-Not a comprehensive list by any sense. I just thought these papers were incredibly influential in getting deep learning to where it is today. 
-
-* [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
-* [GoogLeNet](https://arxiv.org/pdf/1409.4842v1.pdf)
-* [VGGNet](https://arxiv.org/pdf/1409.1556v6.pdf)
-* [ZFNet](https://arxiv.org/pdf/1311.2901v3.pdf)
-* [ResNet](https://arxiv.org/pdf/1512.03385.pdf)
-* [R-CNN](https://arxiv.org/pdf/1311.2524v5.pdf)
-* [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf)
-* [Adversarial Images](https://arxiv.org/pdf/1412.1897.pdf)
-* [Generative Adversarial Networks](https://arxiv.org/pdf/1406.2661v1.pdf)
-* [Spatial Transformer Networks](https://arxiv.org/pdf/1506.02025.pdf)
-* [DCGAN](https://arxiv.org/pdf/1511.06434v2.pdf)
-* [Synthetic Gradients](https://arxiv.org/pdf/1608.05343v1.pdf)
-* [Memory Networks](https://arxiv.org/pdf/1410.3916v11.pdf)
-* [Mixture of Experts](https://arxiv.org/pdf/1701.06538.pdf)
-* [Neural Turing Machines](https://arxiv.org/pdf/1410.5401.pdf)
-* [Alpha Go](https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf)
-* [Atari DQN](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
-* [Word2Vec](https://arxiv.org/pdf/1310.4546.pdf)
-* [GloVe](https://nlp.stanford.edu/pubs/glove.pdf)
-* [A3C](https://arxiv.org/pdf/1602.01783v2.pdf)
-* [Gradient Descent by Gradient Descent](https://arxiv.org/pdf/1606.04474v1.pdf)
-* [Rethinking Generalization](https://arxiv.org/pdf/1611.03530v1.pdf)
-* [Densely Connected CNNs](https://arxiv.org/pdf/1608.06993v1.pdf)
-* [EBGAN](https://arxiv.org/pdf/1609.03126v1.pdf)
-* [Wasserstein GAN](https://arxiv.org/pdf/1701.07875.pdf)
-* [Style Transfer](https://arxiv.org/pdf/1603.08155v1.pdf)
-* [Pixel RNN](https://arxiv.org/pdf/1601.06759v2.pdf)
-* [Dynamic Coattention Networks](https://arxiv.org/pdf/1611.01604v2.pdf)
-* [Convolutional Seq2Seq Learning](https://arxiv.org/pdf/1705.03122.pdf)
-* [Seq2Seq](https://arxiv.org/pdf/1409.3215.pdf)
-* [Dropout](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf)
-* [Batch Norm](https://arxiv.org/pdf/1502.03167.pdf)
-* [Large Batch Training](https://arxiv.org/pdf/1609.04836.pdf)
-* [Transfer Learning](http://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-neural-networks.pdf)
-* [Adam](https://arxiv.org/pdf/1412.6980.pdf)
-* [Speech Recognition](https://arxiv.org/pdf/1303.5778.pdf)
-* [Relational Networks](https://arxiv.org/pdf/1706.01427.pdf)
-* [Influence Functions](https://arxiv.org/pdf/1703.04730.pdf)
-* [ReLu](https://arxiv.org/pdf/1611.01491.pdf)
-* [Xavier Initialization](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
-* [Saddle Points and Non-convexity of Neural Networks](https://arxiv.org/pdf/1406.2572.pdf)
-* [Overcoming Catastrophic Forgetting in NNs](https://arxiv.org/pdf/1612.00796.pdf)
-* [Quasi-Recurrent Neural Networks](https://arxiv.org/pdf/1611.01576.pdf)
-* [Escaping Saddle Points Efficiently](https://arxiv.org/pdf/1703.00887.pdf)
-* [Progressive Growing of GANs](http://research.nvidia.com/sites/default/files/pubs/2017-10_Progressive-Growing-of//karras2017gan-paper.pdf)
-* [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
-* [Dynamic Routing Between Capsules](https://arxiv.org/pdf/1710.09829.pdf)
-* [Unsupervised Machine Translation with Monolingual Corpora](https://arxiv.org/pdf/1711.00043.pdf)
-* [Population Based Training of NN's](https://arxiv.org/pdf/1711.09846.pdf)
-* [Learned Index Structures](https://arxiv.org/pdf/1712.01208v1.pdf)
-* [Visualizing Loss Landscapes](https://arxiv.org/pdf/1712.09913v1.pdf)
-* [DenseNet](https://arxiv.org/pdf/1608.06993.pdf)
 
 ## Other Interesting Links
 
@@ -252,70 +364,6 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Picking up Deep Learning as an Engineer](https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman?srid=cgo&share=d1ac0da2)
 * [Feature Visualization](https://distill.pub/2017/feature-visualization/)
 * [Expressivity, Trainability, and Generalization in Machine Learning](http://blog.evjang.com/2017/11/exp-train-gen.html?spref=tw)
-
-## Cool Use Cases of ML
-
-* [Dropbox OCR](https://blogs.dropbox.com/tech/2017/04/creating-a-modern-ocr-pipeline-using-computer-vision-and-deep-learning/)
-* [Blend Application Submission RNNs](https://blend.com/predicting-submission/)
-* [Uber Customer Care NLP](https://eng.uber.com/cota/)
-
-## ML Tech Talks
-
-* [Democratizing Machine Learning - Neil Lawrence](https://www.youtube.com/watch?v=2Shx0cW1bMI)
-* [Deep Learning for NLP - Richard Socher](https://www.youtube.com/watch?v=tdLmf8t4oqM)
-* [2015 ICML Deep Learning Panel Discussion](https://www.youtube.com/watch?v=EiStan9i8vA)
-* [Practical Application of AI in Enterprise](https://www.youtube.com/watch?v=6LU5Rd587Vk)
-* [Using AI to Personlize Healthcare](https://www.youtube.com/watch?v=KB45rBClgmA)
-* [Autonomous Driving CVPR 2016 Keynote - Amnon Shashua](https://www.youtube.com/watch?v=n8T7A3wqH3Q)
-* [From Text to Knowledge via ML - Xavier Amatriain](https://www.youtube.com/watch?v=q_heZNJ4blA)
-* [Deep Visual-Semantic Alignments for Generating Image Descriptions](http://techtalks.tv/talks/deep-visual-semantic-alignments-for-generating-image-descriptions/61593/)
-* [Deep Learning Theoretical Motivations - Yoshua Bengio](http://videolectures.net/deeplearning2015_bengio_theoretical_motivations/?q=bengio)
-* [Learning to Learn and Compositionality with RNNs - Nando de Freitas](https://www.youtube.com/watch?v=x1kf4Zojtb0)
-* [Deep Advances in Generative Modeling - Alec Radford](https://www.youtube.com/watch?v=KeJINHjyzOU)
-* [Adversarial Networks - Soumith Chintala](https://www.youtube.com/watch?v=QPkb5VcgXAM)
-* [The Next Frontier in AI: Unsupervised Learning - Yann LeCun](https://www.youtube.com/watch?v=IbjF5VjniVE)
-* [ML Foundations and Methods for Precision Medicine and Healthcare - Suchi Saria](https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/ML-Foundations-and-Methods-for-Precision-Medicine-and-Healthcare)
-* [Reprogramming the Human Genome: Why AI is Needed - Brendan Frey](https://www.youtube.com/watch?v=dcU93uo1qu0)
-* [Virtual Assistant: Smart Reply - Anjuli Kannan](https://www.youtube.com/watch?v=ipzBmb4WLAk)
-* [Bridging the Gap Between Artificial Intelligence and Neuroscience - Alex Lavin](https://www.youtube.com/watch?v=7kiTiiMSCrI)
-* [Bringing Deep Learning to The Front Lines of Healthcare - Will Jack](https://www.youtube.com/watch?v=bG0ZbRCYCo8)
-* [Deep Robotic Learning - Sergey Levine](https://www.youtube.com/watch?v=eKaYnXQUb2g)
-* [How AI Startups Must Compete with Google - Fei-Fei Li](https://www.youtube.com/watch?v=Mu3scWZvZKo)
-* [Past, Present and Future of AI Panel](https://www.youtube.com/watch?v=0ueamFGdOpA&list=PLOU2XLYxmsIKC8eODk_RNCWv3fBcLvMMy&index=118)
-* [Differentiable Neural Computer - Alex Graves](https://www.youtube.com/watch?v=steioHoiEms)
-* [Technology, Policy and Vehicle Safety in the Age of AI - Chris Gerdes](https://www.youtube.com/watch?time_continue=990&v=LDprUza7yT4)
-* [Attention and Memory in Deep Learning Networks - Stephen Merity](https://www.youtube.com/watch?v=uuPZFWJ-4bE)
-* [Deep Learning in the Brain - Blake Richards](http://videolectures.net/deeplearning2017_richards_neuroscience/)
-* [Building Machines that See, Learn, and Think Like People - Josh Tenenbaum](https://www.youtube.com/watch?v=7ROelYvo8f0)
-
-## Best Blogs
-
-* [Andrej Karpathy](http://karpathy.github.io/)
-* [Google Research](https://research.googleblog.com/)
-* [Neil Lawrence](http://inverseprobability.com/blog)
-* [Qure.ai](http://blog.qure.ai/)
-* [Brandon Amos](http://bamos.github.io/blog/)
-* [Denny Britz](http://www.wildml.com/)
-* [Moritz Hardt](http://blog.mrtz.org/)
-* [Deepmind](https://deepmind.com/blog/)
-* [Machine Learning Mastery](http://machinelearningmastery.com/blog/)
-* [Smerity](http://smerity.com/articles/articles.html)
-* [The Neural Perspective](https://theneuralperspective.com/)
-* [Pete Warden](https://petewarden.com/page/2/)
-* [Kevin Zakka](https://kevinzakka.github.io/)
-* [Thomas Dinsmore](https://thomaswdinsmore.com/)
-* [Arthur Juliani](https://medium.com/@awjuliani)
-* [CleverHans](http://www.cleverhans.io/)
-* [Off the Convex Path](http://www.offconvex.org/about/)
-* [Sebastian Ruder](http://ruder.io/#open)
-* [Berkeley AI Research](http://bair.berkeley.edu/blog/)
-* [Facebook AI Research](https://research.fb.com/blog/)
-* [Salesforce Research](https://www.salesforce.com/products/einstein/ai-research/)
-* [Apple Machine Learning Journal](https://machinelearning.apple.com/)
-* [OpenAI](https://blog.openai.com/)
-* [Lab41](https://gab41.lab41.org/tagged/machine-learning)
-* [Distill](https://distill.pub/)
-* [My blog :)](https://adeshpande3.github.io/)
 
 ## UCLA ACM AI Resources
 
