@@ -45,30 +45,62 @@ List of all the lessons learned, best practices, and links from my time studying
 
 	Okay, that was definitely a lot of info. The tl;dr is that learning about machine learning models has a lot of steps involved. First, there's understanding the high level perspective, then there's identifying the unique characteristics of the model, then it's testing yourself to see if you can code it up, and finally it's using the model in a practical setting. Don't worry if this takes you a week or even a month with something like linear regression. Going through this process slowly and making sure that you're understanding each step is critical for retaining the information. 
 
-For steps #3 - 7, repeat the process I talked about above with each of the following ML models. 
+For steps #3 - 7, repeat the process I talked about above with each of the following ML models. I have listed a couple of links per model. You don't have to watch of all them per se, just wanted to include as many good resources I could find. **If you need more material or you still don't understand a topic, do a simple YouTube or Google search!** You'll be surprised with how much you find.
 
-3) Linear Regression: 
+3) **Linear Regression**: 
+	* [Coursera Course - Linear Regression with One Variable](https://www.youtube.com/watch?v=kHwlB_j7Hkc)
+	* [Simple Linear Regression](https://www.youtube.com/watch?v=ZkjP5RJLQF4)
+	* [Linear Regression for Machine Learning](https://machinelearningmastery.com/linear-regression-for-machine-learning/)
 
-4) Logistic Regression: 
+4) **Logistic Regression**: 
+	* [Coursera Course - Logistic Regression and Classification](https://www.youtube.com/watch?v=-la3q9d7AKQ)
+	* [Logistic Regression - An Introduction](https://www.youtube.com/watch?v=zAULhNrnuL4)
+	* [Stanford Logistic Regression Overview](http://ufldl.stanford.edu/tutorial/supervised/LogisticRegression/)
+	* [Siraj Raval Logistic Regression Tutorial](https://www.youtube.com/watch?v=D8alok2P468)
 
-5) K Nearest Neighbors: 
+5) **K Nearest Neighbors**: 
+	* [K Nearest Neighbors](https://www.youtube.com/watch?v=k_7gMp5wh5A)
+	* [GeeksForGeeks Explanation](https://www.geeksforgeeks.org/k-nearest-neighbours/)
+	* [Udacity Explanation of KNNs](https://www.youtube.com/watch?v=mpU84OJ5vdQ)
 
-6) K-Means: 
+6) **K-Means**: 
+	* [Coursera Course - K Means](https://www.youtube.com/watch?v=hDmNF9JG3lo)
+	* [Stanford K Means Overview](http://stanford.edu/~cpiech/cs221/handouts/kmeans.html)
+	* [Siraj Raval K Means Tutorial](https://www.youtube.com/watch?v=9991JlKnFmk)
 
-7) Decision Trees
+7) **Decision Trees**:
+	* [Nando de Freitas Lecture](https://www.youtube.com/watch?v=-dCtJjlEEgM)
+	* [Decision Trees in ML](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052)
 
 **Optional, but Worth Your Time**: Random Forest, SVMs, Naive Bayes, Gradient Boosted Methods, PCA
 
 So now that we have a decent understanding of some ML models, I think that we can transition into deep learning. 
 
-8) Neural Networks: If someone wants to get started with deep learning, I think that the best approach is to first get familiar with machine learning (which you all will have done by this point) and then start with neural networks. Following the same high level understanding -> model specifics -> code -> practical example approach would be great here as well. 
-	* 
+8) **Neural Networks**: If someone wants to get started with deep learning, I think that the best approach is to first get familiar with machine learning (which you all will have done by this point) and then start with neural networks. Following the same high level understanding -> model specifics -> code -> practical example approach would be great here as well. 
+	* [3Blue1Brown Neural Network Playlist](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi): Can't overstate how well made these videos are. They go in depth on backpropagation and gradient descent, two critical concepts for understanding neural networks. 
+	* [How Deep Neural Networks Work](https://www.youtube.com/watch?v=ILsA4nyG7I0): Another great tutorial by Brandon Rohrer.
+	* [A Friendly Introduction to Deep Learning and Neural Networks](https://www.youtube.com/watch?v=BR9h47Jtqyw): Another visually appearing presentation of neural nets.
+	* [Neural Network Playground](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.09661&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false): Great web app, created by Google, that allows you to tinker with a neural network in the browser. Awesome for gaining some practical understanding. 
+	* [Michael Nielsen Book on NNs](http://neuralnetworksanddeeplearning.com/chap1.html): Very in depth and comprehensive.
 
-9) Convolutional Neural Networks
+9) **Convolutional Neural Networks**:  A convolutional neural network is a special type of neural network that has been successfully used for image processing tasks.
+	* [A Beginner's Guide to Understanding CNNs](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/): Shameless plug LOL
+	* [CS 231N Homepage](http://cs231n.github.io/convolutional-networks/): Stanford CS231N is a grad course focused on CNNs that was originally taught by Fei Fei Li, Andrej Karpathy, and others.
+	* [CS 231N Video Lectures](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC): All the lecture videos from 2016. There will likely be a playlist for 2017 somewhere on YouTube as well. 
+	* [Brandon Rohrer YouTube Tutorial](https://www.youtube.com/watch?v=FmpDIaiMIeA): Great visuals on this tutorial video. 
+	* [Andrew Ng's CNN Course](https://www.youtube.com/playlist?list=PLBAGcD3siRDjBU8sKRk0zX9pMz9qeVxud): Videos from Andrew Ng's deep learning course. 
 
-10) Recurrent Neural Networks
+10) **Recurrent Neural Networks**: A recurrent neural network is a special type of neural network that has been successfully used for natural language processing tasks.
+	* [Deep Learning Research Paper Review: NLP](https://adeshpande3.github.io/adeshpande3.github.io/Deep-Learning-Research-Review-Week-3-Natural-Language-Processing): Too many shameless plugs or nah? LOL
+	* [CS 224D Video Lectures](https://www.youtube.com/playlist?list=PLCJlDcMjVoEdtem5GaohTC1o9HTTFtK7_): Stanford CS 224D is a grad course focused on RNNs and applying deep learning to NLP. 
+	* [RNNs and LSTMs](https://www.youtube.com/watch?v=WCUNPb-5EYI): We all love Brandon honestly. 
+	* [Recurrent Neural Networks - Intel Nervana](https://www.youtube.com/watch?v=Ukgii7Yd_cU): Very comprehensive.
+	* [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/): Chris Olah's posts are readable, yet in-depth.
+	* [Introduction to RNNs](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/): Denny Britz is another great author who has a wide ranging blog.
 
-11) Reinforcement Learning: While the 3 prior ML methods are necessarily important for understanding RL, a lot of recent progress in this field has combined elements from the deep learning camp as well as from the traditional reinforcement learning field. 
+11) **Reinforcement Learning**: While the 3 prior ML methods are necessarily important for understanding RL, a lot of recent progress in this field has combined elements from the deep learning camp as well as from the traditional reinforcement learning field. 
+	* [David Silver's Reinforcement Learning Course](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PL5X3mDkKaJrL42i_jhE4N-p6E2Ol62Ofa): Advanced stuff covered here, but David is a fantastic lecturer and I loved the comprehensive content. 
+	* [Simple Reinforcement Learning with Tensorflow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0): Arthur Juliani has a blog post series that covers RL concepts with lots of practical examples. 
 
 Awesome, so now you should have a decent understanding of where ML and DL are in today's day and age. The world is your playground now. Read research papers, try Kaggle contests, watch ML tech talks, build cool projects, talk to others interested in ML, never stop learning, and most importantly, have fun! :) This is a great time to get into ML and in the rush to gain knowledge as quickly as possible, it often good to just slow down and think about the types of amazing applications and positive change we can create in this world with this technology.  
 
