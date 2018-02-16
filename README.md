@@ -15,6 +15,7 @@ List of all the lessons learned, best practices, and links from my time studying
 * [Deep Learning Frameworks](#deep-learning-frameworks)
 * [CNNs](#cnns)
 * [NLP](#nlp)
+* [Deep Reinforcement Learning](#deep-reinforcement-learning)
 * [ML Project Advice](#ml-project-advice)
 * [Kaggle](#kaggle)
 * [Debugging ML Models](#debugging-ml-models)
@@ -341,6 +342,13 @@ If you try to change too many of the above variables at once, you’ll lose trac
 
 * Use pretrained word embeddings whenever you can. From my experience, it’s just a lot less hassle, and quite frankly I’m not sure if you even get a performance improvement if you try to train them jointly with whatever other main task you want to solve. It’s task-dependent I guess. For something simple like sentiment analysis though, pretrained word vectors worked perfectly. 
 	* [Glove word embeddings](https://nlp.stanford.edu/projects/glove/) work great for me. 
+
+## Deep Reinforcement Learning
+
+Some cool articles and blog posts on RL. 
+	* [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html)
+	* [Deep RL Arxiv Review Paper](https://arxiv.org/pdf/1701.07274v2.pdf)
+	* [Pong From Pixels](http://karpathy.github.io/2016/05/31/rl/)
 
 ## ML Project Advice
 
