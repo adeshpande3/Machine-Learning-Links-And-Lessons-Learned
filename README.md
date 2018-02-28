@@ -17,6 +17,7 @@ List of all the lessons learned, best practices, and links from my time studying
 * [NLP](#nlp)
 * [Deep Reinforcement Learning](#deep-reinforcement-learning)
 * [ML Project Advice](#ml-project-advice)
+* [Math Resources](#math-resources)
 * [Kaggle](#kaggle)
 * [Debugging ML Models](#debugging-ml-models)
 * [Best Python Libraries for ML](#best-python-libraries-for-ml)
@@ -361,6 +362,10 @@ Some cool articles and blog posts on RL.
 * If you’re trying to create some sort of end product, 80% of your ML project will honestly be just doing front-end and back-end work. And even within that 20% of ML work, a lot of it will probably be dataset creation or preprocessing. 
 * Always divide your data into train and validation (and test if you want) sets. Checking performance on your validation set at certain points during training will help you determine whether the network is learning and when overfitting starts to happen.  
 * Always shuffle your data when you're creating training batches. 
+
+## Math Resources
+
+* [Matrix Calculation](http://parrt.cs.usfca.edu/doc/matrix-calculus/index.html)
 
 ## Kaggle
 
