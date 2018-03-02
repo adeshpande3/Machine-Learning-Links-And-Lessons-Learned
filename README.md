@@ -234,6 +234,8 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Pete Warden](https://petewarden.com/page/2/)
 * [Kevin Zakka](https://kevinzakka.github.io/)
 * [Thomas Dinsmore](https://thomaswdinsmore.com/)
+* [Rohan Varma](http://rohanvarma.me/)
+* [Anish Athalye](https://www.anishathalye.com/)
 * [Arthur Juliani](https://medium.com/@awjuliani)
 * [CleverHans](http://www.cleverhans.io/)
 * [Off the Convex Path](http://www.offconvex.org/about/)
