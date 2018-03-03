@@ -216,8 +216,8 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Attention and Memory in Deep Learning Networks - Stephen Merity](https://www.youtube.com/watch?v=uuPZFWJ-4bE)
 * [Deep Learning in the Brain - Blake Richards](http://videolectures.net/deeplearning2017_richards_neuroscience/)
 * [Building Machines that See, Learn, and Think Like People - Josh Tenenbaum](https://www.youtube.com/watch?v=7ROelYvo8f0)
-* [Self-Driving Cars- Sacha Arnoud](https://www.youtube.com/watch?v=LSX3qdy0dFg)
-* [Deep Learning and Innate Priors](https://www.youtube.com/watch?v=fKk9KhGRBdI)
+* [Self-Driving Cars - Sacha Arnoud](https://www.youtube.com/watch?v=LSX3qdy0dFg)
+* [Deep Learning and Innate Priors - Yann LeCun and Christopher Manning](https://www.youtube.com/watch?v=fKk9KhGRBdI)
 
 ## Best Blogs
 
