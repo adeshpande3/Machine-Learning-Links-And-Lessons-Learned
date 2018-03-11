@@ -218,6 +218,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Building Machines that See, Learn, and Think Like People - Josh Tenenbaum](https://www.youtube.com/watch?v=7ROelYvo8f0)
 * [Self-Driving Cars - Sacha Arnoud](https://www.youtube.com/watch?v=LSX3qdy0dFg)
 * [Deep Learning and Innate Priors - Yann LeCun and Christopher Manning](https://www.youtube.com/watch?v=fKk9KhGRBdI)
+* [nuTonomy's Vision for Autonomous Driving - Emilio Frazzoli](https://www.youtube.com/watch?v=dWSbItd0HEA)
 
 ## Best Blogs
 
