@@ -370,7 +370,8 @@ Some cool articles and blog posts on RL.
 
 ## Math Resources
 
-* [Matrix Calculation](http://parrt.cs.usfca.edu/doc/matrix-calculus/index.html)
+* [Matrix Calculus](http://parrt.cs.usfca.edu/doc/matrix-calculus/index.html)
+* [Mathematics for Machine Learning](http://gwthomas.github.io/docs/math4ml.pdf)
 
 ## Bias in Machine Learning
 
