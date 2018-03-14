@@ -18,6 +18,7 @@ List of all the lessons learned, best practices, and links from my time studying
 * [Deep Reinforcement Learning](#deep-reinforcement-learning)
 * [ML Project Advice](#ml-project-advice)
 * [Math Resources](#math-resources)
+* [Bias in Machine Learning](#bias-in-machine-learning)
 * [Kaggle](#kaggle)
 * [Debugging ML Models](#debugging-ml-models)
 * [Best Python Libraries for ML](#best-python-libraries-for-ml)
@@ -370,6 +371,12 @@ Some cool articles and blog posts on RL.
 ## Math Resources
 
 * [Matrix Calculation](http://parrt.cs.usfca.edu/doc/matrix-calculus/index.html)
+
+## Bias in Machine Learning
+
+* [CS 294: Fairness in Machine Learning](https://fairmlclass.github.io/)
+* [Bias and Fairness in Machine Learning Blog Post](https://abhishek-tiwari.com/bias-and-fairness-in-machine-learning/)
+* [Fairness in Precision Medicine](https://datasociety.net/wp-content/uploads/2018/02/Data.Society.Fairness.In_.Precision.Medicine.Feb2018.FINAL-2.26.18.pdf)
 
 ## Kaggle
 
