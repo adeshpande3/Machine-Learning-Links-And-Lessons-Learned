@@ -359,6 +359,7 @@ Some cool articles and blog posts on RL.
 * [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html)
 * [Deep RL Arxiv Review Paper](https://arxiv.org/pdf/1701.07274v2.pdf)
 * [Pong From Pixels](http://karpathy.github.io/2016/05/31/rl/)
+* [Lessons Learned Reproducing a Deep RL Paper](http://amid.fish/reproducing-deep-rl)
 
 ## ML Project Advice
 
