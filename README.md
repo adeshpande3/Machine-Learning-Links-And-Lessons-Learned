@@ -428,6 +428,7 @@ Some cool articles and blog posts on RL.
 * [Expressivity, Trainability, and Generalization in Machine Learning](http://blog.evjang.com/2017/11/exp-train-gen.html?spref=tw)
 * [Optimization over Explanation](https://medium.com/berkman-klein-center/optimization-over-explanation-41ecb135763d)
 * [Learning to Trade with RL](http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/)
+* [AI and Digital Forgery](https://giorgiop.github.io/posts/2018/03/17/AI-and-digital-forgery/)
 
 ## UCLA ACM AI Resources
 
