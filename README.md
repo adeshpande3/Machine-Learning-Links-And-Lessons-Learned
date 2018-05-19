@@ -125,6 +125,7 @@ Awesome, so now you should have a decent understanding of where ML and DL are in
 * [Bay Area Deep Learning School Day 1 2016](https://www.youtube.com/watch?v=eyovmAtoUx0) and [Day 2](https://www.youtube.com/watch?v=9dXiAecyJrY)
 * [Introduction to Deep Learning MIT Course](https://www.youtube.com/playlist?list=PLkkuNyzb8LmxFutYuPA7B4oiMn6cjD6Rs)
 * [Caltech CS 156 - Machine Learning](https://www.youtube.com/playlist?list=PLD63A284B7615313A)
+* [Berkeley EE 227C - Convex Optimization](https://ee227c.github.io/)
 
 ## Most Important Deep Learning Papers
 
