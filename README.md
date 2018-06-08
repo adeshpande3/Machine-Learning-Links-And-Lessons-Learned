@@ -431,6 +431,7 @@ Some cool articles and blog posts on RL.
 * [Optimization over Explanation](https://medium.com/berkman-klein-center/optimization-over-explanation-41ecb135763d)
 * [Learning to Trade with RL](http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/)
 * [AI and Digital Forgery](https://giorgiop.github.io/posts/2018/03/17/AI-and-digital-forgery/)
+* [Judea Pearl Interview](https://www.quantamagazine.org/to-build-truly-intelligent-machines-teach-them-cause-and-effect-20180515/)
 
 ## UCLA ACM AI Resources
 
