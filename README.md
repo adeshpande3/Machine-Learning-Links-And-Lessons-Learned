@@ -185,6 +185,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Visualizing Loss Landscapes](https://arxiv.org/pdf/1712.09913v1.pdf)
 * [DenseNet](https://arxiv.org/pdf/1608.06993.pdf)
 * [SqueezeNet](https://arxiv.org/pdf/1602.07360.pdf)
+* [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
 
 ## Cool Use Cases of ML
 
