@@ -225,6 +225,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Deep Learning and Innate Priors - Yann LeCun and Christopher Manning](https://www.youtube.com/watch?v=fKk9KhGRBdI)
 * [nuTonomy's Vision for Autonomous Driving - Emilio Frazzoli](https://www.youtube.com/watch?v=dWSbItd0HEA)
 * [Meta-Learning and Self-Play - Ilya Sutskever](https://www.youtube.com/watch?v=9EN_HoEk3KY)
+* [From Generative Models to Generative Agents - Koray Kavukcuoglu](https://www.youtube.com/watch?v=N5oZIO8pE40)
 
 ## Best Blogs
 
