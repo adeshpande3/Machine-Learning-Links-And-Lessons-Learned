@@ -437,6 +437,7 @@ Some cool articles and blog posts on RL.
 * [Learning to Trade with RL](http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/)
 * [AI and Digital Forgery](https://giorgiop.github.io/posts/2018/03/17/AI-and-digital-forgery/)
 * [Judea Pearl Interview](https://www.quantamagazine.org/to-build-truly-intelligent-machines-teach-them-cause-and-effect-20180515/)
+* [State of AI in 2018](https://www.stateof.ai/)
 
 ## UCLA ACM AI Resources
 
