@@ -229,6 +229,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Meta-Learning and Self-Play - Ilya Sutskever](https://www.youtube.com/watch?v=9EN_HoEk3KY)
 * [From Generative Models to Generative Agents - Koray Kavukcuoglu](https://www.youtube.com/watch?v=N5oZIO8pE40)
 * [A Neural Network Model That Can Reason - Christopher Manning](https://www.youtube.com/watch?v=jpNLp9SnTF8)
+* [ICLR 2018 Fireside Chat - Daphne Koller](https://www.youtube.com/watch?v=N4mdV1CIpvI)
 
 ## Best Blogs
 
