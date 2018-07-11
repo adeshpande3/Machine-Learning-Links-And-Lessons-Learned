@@ -439,6 +439,7 @@ Some cool articles and blog posts on RL.
 * [AI and Digital Forgery](https://giorgiop.github.io/posts/2018/03/17/AI-and-digital-forgery/)
 * [Judea Pearl Interview](https://www.quantamagazine.org/to-build-truly-intelligent-machines-teach-them-cause-and-effect-20180515/)
 * [State of AI in 2018](https://www.stateof.ai/)
+* [A New Angle on L2 Regularization](https://thomas-tanay.github.io/post--L2-regularization/)
 
 ## UCLA ACM AI Resources
 
