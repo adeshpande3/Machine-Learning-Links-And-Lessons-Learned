@@ -259,6 +259,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [Apple Machine Learning Journal](https://machinelearning.apple.com/)
 * [OpenAI](https://blog.openai.com/)
 * [Lab41](https://gab41.lab41.org/tagged/machine-learning)
+* [Depth First Learning](http://www.depthfirstlearning.com/)
 * [Distill](https://distill.pub/)
 * [My blog :)](https://adeshpande3.github.io/)
 
