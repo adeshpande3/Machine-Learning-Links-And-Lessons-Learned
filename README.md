@@ -441,6 +441,7 @@ Some cool articles and blog posts on RL.
 * [Judea Pearl Interview](https://www.quantamagazine.org/to-build-truly-intelligent-machines-teach-them-cause-and-effect-20180515/)
 * [State of AI in 2018](https://www.stateof.ai/)
 * [A New Angle on L2 Regularization](https://thomas-tanay.github.io/post--L2-regularization/)
+* [Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml/)
 
 ## UCLA ACM AI Resources
 
