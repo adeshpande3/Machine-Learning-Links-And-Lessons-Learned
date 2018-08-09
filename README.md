@@ -310,6 +310,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * SVM’s
     * [What are C and Gamma?](https://www.quora.com/What-are-C-and-gamma-with-regards-to-a-support-vector-machine/answer/Rohan-Varma-8?srid=JlQJ) 
 * The Deep Learning book says that the learning rate is the most important hyperparameter in most deep networks, and I do have to agree. A low LR makes training unbearably slow (and could get stuck in some minima), while a high LR can make training extremely unstable. 
+* [Hyperopt](http://hyperopt.github.io/hyperopt/): A Python library for hyperparameter optimization
 
 ## Tensorflow/Deep Nets
 
