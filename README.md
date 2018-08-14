@@ -130,7 +130,7 @@ Awesome, so now you should have a decent understanding of where ML and DL are in
 
 ## Most Important Deep Learning Papers
 
-Not a comprehensive list by any sense. I just thought these papers were incredibly influential in getting deep learning to where it is today. 
+Not a comprehensive list by any sense. I just thought these papers were incredibly influential in getting deep learning to where it is today. I also add a couple important general ML papers from time to time. 
 
 * [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 * [GoogLeNet](https://arxiv.org/pdf/1409.4842v1.pdf)
@@ -188,6 +188,7 @@ Not a comprehensive list by any sense. I just thought these papers were incredib
 * [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
 * [Hidden Technical Debt in ML Systems](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf)
 * [MobileNets](https://arxiv.org/pdf/1704.04861.pdf)
+* [Learning from Imbalanced Data](http://www.ele.uri.edu/faculty/he/PDFfiles/ImbalancedLearning.pdf)
 
 ## Cool Use Cases of ML
 
