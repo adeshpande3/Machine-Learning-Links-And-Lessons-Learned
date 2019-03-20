@@ -435,6 +435,7 @@ Some cool articles and blog posts on RL.
 * [ConvNetJS Demo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html)
 * [Stanford Sentiment Analysis Demo](http://nlp.stanford.edu:8080/sentiment/rntnDemo.html)
 * [Deep Learning's Relation to Physics](https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/)
+* [Training an NSFW Model - Case Study](https://medium.freecodecamp.org/how-to-set-up-nsfw-content-detection-with-machine-learning-229a9725829c)
 * [Interpretability of AI](http://nautil.us/issue/40/learning/is-artificial-intelligence-permanently-inscrutable)
 * [Picking up Deep Learning as an Engineer](https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer/answer/Greg-Brockman?srid=cgo&share=d1ac0da2)
 * [Feature Visualization](https://distill.pub/2017/feature-visualization/)
