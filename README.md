@@ -447,6 +447,7 @@ Some cool articles and blog posts on RL.
 * [State of AI in 2018](https://www.stateof.ai/)
 * [A New Angle on L2 Regularization](https://thomas-tanay.github.io/post--L2-regularization/)
 * [Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml/)
+* [Bringing Performance ML to Edge Devices](https://medium.freecodecamp.org/perf-machine-learning-on-rasp-pi-51101d03dba2)
 
 ## UCLA ACM AI Resources
 
