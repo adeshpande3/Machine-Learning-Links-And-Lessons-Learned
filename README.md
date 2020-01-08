@@ -480,6 +480,7 @@ As one of the officers for UCLA ACM AI, the AI/ML group on campus, we have hoste
 * Important to differentiate between which problems just need more data and compute to work better and which problems really need core algorithmic breakthroughs to really work. 
 * Breakthroughs over the past 5 or so years have mostly happened because of improvements in data/compute/infrastructure, not necessarily improvements in the algorithms themselves. At some point, we're going to have to make those better. Compute and data isn't going to be enough at some point.
 * How is there is a trust between the human and the machine. In the past, machines would work exactly the way it is supposed to (as long as servers don't go down), This is kind of a new frontier where you don’t really know that given a certain input, what the output will look like. 
+* Consider getting a training machine.  You can get decent machine up and running for [around $240 USD](https://heartbeat.fritz.ai/getting-started-with-the-jetson-nano-3bb6fd33a97f).
 * The main reasons that deep learning methods have really worked over the last few years are:
     * The public availability of large datasets. Aka Thank you Fei-Fei Li!
     * Compute power. Aka Thanks Nvidia
