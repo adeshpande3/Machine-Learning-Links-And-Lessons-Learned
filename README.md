@@ -428,6 +428,7 @@ Some cool articles and blog posts on RL.
 * [Scikit-Learn](http://scikit-learn.org/stable/)
 * [Matplotlib](https://matplotlib.org/)
 * [Pandas](http://pandas.pydata.org/)
+* [Python](https://www.interviewbit.com/blog/python-libraries/)
 
 ## Other Interesting Links
 
